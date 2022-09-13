@@ -1,0 +1,97 @@
+tags:
+- name: acronymns
+  description: users API
+
+paths:
+# [GET] acronymns
+  /acronym:
+    get:
+      tags:
+      - acronymns
+      summary: Get list of acronyms, paginated using query parameters
+      parameters:
+      - name: from
+        in: path
+        description: start row
+        required: true
+        type: integer
+      - name: limit
+        in: path
+        description: limit length to show
+        required: true
+        type: integer
+      - name: search
+        in: path
+        description: search word
+        required: false
+        type: integer
+      responses:
+        200:
+          description: 'OK'
+        500:
+          description: 'Server Error'
+
+# [POST] users
+    post:
+      tags:
+      - acronyms
+      summary: Create Acronym
+      parameters:
+      - name: acronym
+        in: path
+        description: Acronym Data
+        required: true
+        type: string
+      - name: description
+        in: path
+        description: Acronym Data
+        type: string
+        required: true
+      responses:
+        200:
+          description: 'Created'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+# [PUT] acronym/:nowAcroynm
+    put:
+      tags:
+      - acronyms
+      summary: Update acronym
+      parameters:
+      - name: newAcronym
+        in: path
+        description: update value
+        required: true
+        type: string
+      responses:
+        200:
+          description: 'OK'
+        400:
+          description: 'Bad Request'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'
+
+# [DELETE] acronym/:acronym
+    delete:
+      tags:
+      - acronyms
+      summary: Delete Acronym
+      parameters:
+      - name: acronym
+        in: path
+        description: Acronym
+        required: true
+        type: string
+      responses:
+        200:
+          description: 'OK'
+        409:
+          description: 'Conflict'
+        500:
+          description: 'Server Error'

@@ -1,0 +1,571 @@
+2022-09-12 07:31:02 error: uncaughtException: acronym_route_1.default is not a constructor
+TypeError: acronym_route_1.default is not a constructor
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at phase4 (D:\__Work\__Others\Acronym\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (D:\__Work\__Others\Acronym\node_modules\ts-node\src\bin.ts:95:10)
+2022-09-12 07:31:30 error: uncaughtException: acronym_route_1.default is not a constructor
+TypeError: acronym_route_1.default is not a constructor
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at phase4 (D:\__Work\__Others\Acronym\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (D:\__Work\__Others\Acronym\node_modules\ts-node\src\bin.ts:95:10)
+2022-09-12 07:40:29 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\index.js:521:19)
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:17:17)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-09-12 07:41:33 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\index.js:521:19)
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:17:17)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-09-12 07:41:41 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\index.js:521:19)
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:15:17)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:11:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-09-12 07:56:23 error: uncaughtException: AuthService is not defined
+ReferenceError: AuthService is not defined
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:8:28)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:8:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-09-12 08:09:26 error: uncaughtException: Unexpected token 'const'
+D:\__Work\__Others\Acronym\src\services\acronym.service.ts:44
+            const findAcronyms = this.acronyms.find(acronym => {
+            ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:5:1)
+2022-09-12 08:11:01 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:11:10 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:11:14 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:11:36 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:11:41 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:11:56 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:12:17 error: [GET] /acronym >> StatusCode:: 500, Message:: findAcronyms.slice is not a function
+2022-09-12 08:27:08 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\index.js:521:19)
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:16:17)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:11:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-09-12 08:30:24 error: uncaughtException: validationMiddleware is not defined
+ReferenceError: validationMiddleware is not defined
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:16:30)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:11:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-09-12 08:30:34 error: uncaughtException: validationMiddleware is not defined
+ReferenceError: validationMiddleware is not defined
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:17:30)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:12:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+2022-09-12 08:30:52 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\index.js:521:19)
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:18:17)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-09-12 08:30:55 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (D:\__Work\__Others\Acronym\node_modules\express\lib\router\index.js:521:19)
+    at AcronymRoute.initializeRoutes (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:18:17)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:10:75)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+2022-09-12 08:32:30 error: [POST] /acronym >> StatusCode:: 400, Message:: description must be a string
+2022-09-12 08:39:10 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:39:22 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:46:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/acronym.controller.ts[0m:[93m34[0m:[93m32[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m34[0m           message: 'Try again.,
+[7m  [0m [91m                               [0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m35[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m35[0m           type: 'failed',
+[7m  [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/acronym.controller.ts[0m:[93m34[0m:[93m32[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m34[0m           message: 'Try again.,
+[7m  [0m [91m                               [0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m35[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m35[0m           type: 'failed',
+[7m  [0m [91m          ~~~~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-12 08:46:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/acronym.controller.ts[0m:[93m34[0m:[93m32[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m34[0m           message: 'Try again.,
+[7m  [0m [91m                               [0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m35[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m35[0m           type: 'failed',
+[7m  [0m [91m          ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/acronym.controller.ts[0m:[93m34[0m:[93m32[0m - [91merror[0m[90m TS1002: [0mUnterminated string literal.
+
+[7m34[0m           message: 'Try again.,
+[7m  [0m [91m                               [0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m35[0m:[93m11[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m35[0m           type: 'failed',
+[7m  [0m [91m          ~~~~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-12 08:46:28 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:48:09 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:48:10 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:48:10 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:48:11 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:48:11 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:48:41 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 08:55:51 error: [PUT] /acronym:ldif >> StatusCode:: 400, Message:: property acronym should not exist, property description should not exist
+2022-09-12 08:56:44 error: [PUT] /acronym/ldif >> StatusCode:: 400, Message:: property acronym should not exist, property description should not exist
+2022-09-12 08:57:25 error: [PUT] /acronym/ldif >> StatusCode:: 400, Message:: property newAcronym should not exist
+2022-09-12 08:57:34 error: [PUT] /acronym/ldif >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 08:59:49 error: [PUT] /acronym/ldif >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 08:59:51 error: [PUT] /acronym/ldif >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 08:59:51 error: [PUT] /acronym/ldif >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 09:00:29 error: [PUT] /acronym/ldif >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 09:01:22 error: [PUT] /acronym/ldif >> StatusCode:: 401, Message:: Wrong authentication token
+2022-09-12 09:01:58 error: [PUT] /acronym/ldif >> StatusCode:: 401, Message:: Wrong authentication token
+2022-09-12 09:12:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m33[0m:[93m78[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m       if (Object.keys(acronym)[0] === nowAcronym) acronym = { [newAcronym]:  };
+[7m  [0m [91m                                                                             ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m33[0m:[93m78[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m33[0m       if (Object.keys(acronym)[0] === nowAcronym) acronym = { [newAcronym]:  };
+[7m  [0m [91m                                                                             ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-12 09:14:02 error: [PUT] /acronym/ZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:17:26 error: [PUT] /acronym/ZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:17:32 error: [PUT] /acronym/ZZZz >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:23:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m44[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                           ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m46[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                             ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m87[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m87[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m44[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                           ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m46[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                             ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m87[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m87[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-12 09:25:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m44[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                           ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m46[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                             ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m87[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m87[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m44[0m - [91merror[0m[90m TS1442: [0mExpected '=' for property initializer.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                           ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m40[0m:[93m46[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.
+
+[7m40[0m   public async deleteAcronymacronym: string) {
+[7m  [0m [91m                                             ~[0m
+[96msrc/services/acronym.service.ts[0m:[93m87[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m87[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-12 09:27:27 error: [DELETE] /acronym/ZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:27:41 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:27:59 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:28:04 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:28:32 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 09:30:14 error: [DELETE] /acronym/ZZZZZz >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 16:37:47 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 16:41:14 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 16:41:40 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 16:52:03 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 16:54:23 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 16:58:49 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 16:59:33 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:00:17 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:00:47 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:01:37 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:02:44 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:08:11 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 17:08:54 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 17:08:54 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 17:12:45 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 17:14:28 error: [PUT] /acronym/ZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:15:38 error: [PUT] /acronym/KIU >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:23:41 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:23:41 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:24:56 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:24:56 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-12 17:31:16 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 17:32:33 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 17:32:33 error: [PUT] /acronym/ZZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 17:32:33 error: [DELETE] /acronym/ZZZZZ >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-12 17:33:19 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-12 18:08:21 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:08:41 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:09:03 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:10:31 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:11:04 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:11:06 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:11:22 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:11:24 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:13:31 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:13:36 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:13:40 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:17:00 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:17:18 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:17:45 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:17:58 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-12 18:20:53 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:21:05 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:21:39 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:09 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:11 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:18 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:19 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:19 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:19 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:19 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:19 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:21 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:21 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:22 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:27:33 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:43:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:44:00 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-12 18:46:33 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string

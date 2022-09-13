@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/interfaces/acronym.interface.ts"],"sourcesContent":["export interface Acronym {\n  acronym: string;\n  description: string;\n}\n\nexport interface AcronymGroup {\n  acronyms: Acronym[];\n  isOnly: boolean;\n}\n"],"names":[],"mappings":"AAAA"}
