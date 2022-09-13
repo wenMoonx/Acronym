@@ -1,54 +1,48 @@
+swagger: "2.0"
+info:
+  description: "This is G2i Node Test"
+  version: "1.0.0"
+  title: "Acronym"
 tags:
-- name: acronymns
-  description: users API
-
+- name: acronyms
+  description: acronyms API
+host: "g2iacronymnodetest.herokuapp.com"
 paths:
-# [GET] acronymns
+# [GET] acronyms
   /acronym:
     get:
       tags:
-      - acronymns
-      summary: Get list of acronyms, paginated using query parameters
+      - acronyms
+      summary: Find All Acronyms
       parameters:
-      - name: from
-        in: path
-        description: start row
-        required: true
-        type: integer
-      - name: limit
-        in: path
-        description: limit length to show
-        required: true
-        type: integer
-      - name: search
-        in: path
-        description: search word
-        required: false
-        type: integer
+        - in: query
+          name: from
+          type: integer
+        - in: query
+          name: limit
+          type: integer
+        - in: query
+          name: search
+          type: string
       responses:
         200:
           description: 'OK'
         500:
           description: 'Server Error'
-
-# [POST] users
+# [POST] acronyms
     post:
       tags:
       - acronyms
-      summary: Create Acronym
+      summary: Add Acronym
       parameters:
-      - name: acronym
-        in: path
-        description: Acronym Data
+      - name: body
+        in: body
+        description: acronym Data
         required: true
-        type: string
-      - name: description
-        in: path
-        description: Acronym Data
-        type: string
-        required: true
+        schema:
+          $ref: '#/definitions/createAcronym'
       responses:
-        200:
+        201:
           description: 'Created'
         400:
           description: 'Bad Request'
@@ -56,17 +50,28 @@ paths:
           description: 'Conflict'
         500:
           description: 'Server Error'
-# [PUT] acronym/:nowAcroynm
+# [PUT] acronyms/name
+  /acronym/{nowAcronym}:
     put:
       tags:
       - acronyms
-      summary: Update acronym
+      summary: Update Acronym By Name
       parameters:
-      - name: newAcronym
-        in: path
-        description: update value
+      - name: Authorization
+        in: header
+        require: true
+        type: string
+      - in: path
+        name: nowAcronym
+        description: acronym Name
         required: true
         type: string
+      - name: body
+        in: body
+        description: acronym Data
+        required: true
+        schema:
+          $ref: '#/definitions/updateAcronym'
       responses:
         200:
           description: 'OK'
@@ -76,17 +81,20 @@ paths:
           description: 'Conflict'
         500:
           description: 'Server Error'
-
-# [DELETE] acronym/:acronym
+# [DELETE] acronyms/acronyms
     delete:
       tags:
       - acronyms
-      summary: Delete Acronym
+      summary: Delete Acronym By Name
       parameters:
-      - name: acronym
+      - name: nowAcronym
         in: path
-        description: Acronym
+        description: acronym Name
         required: true
+        type: string
+      - name: Authorization
+        in: header
+        require: true
         type: string
       responses:
         200:
@@ -95,3 +103,28 @@ paths:
           description: 'Conflict'
         500:
           description: 'Server Error'
+# definitions
+definitions:
+  createAcronym:
+    type: object
+    required:
+        - acronym
+        - description
+    properties:
+      acronym:
+        type: string
+        description: acronym Name
+      description:
+        type: string
+        description: acronym description
+  updateAcronym:
+    type: object
+    required:
+        - newAcronym
+    properties:
+      newAcronym:
+        type: string
+        description: acronym Name
+schemes:
+ - http
+ - https

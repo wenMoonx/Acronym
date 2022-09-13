@@ -1,0 +1,1066 @@
+2022-09-13 00:35:52 error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:36:10 error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:36:24 error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:36:30 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:37:05 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:37:13 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:13 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:18 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:18 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:33 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:33 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:41 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:37:48 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:37:51 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:37:51 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:38:11 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:38:11 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:38:24 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:38:24 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:38:49 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:38:49 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\dfs\Acronym\src\app.ts
+- D:\__Work\__Others\dfs\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\dfs\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\dfs\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:39:04 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\dfs\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\dfs\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\dfs\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\dfs\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:41:56 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:42:33 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:44:04 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:44:12 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:44:50 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:45:21 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:45:52 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:33:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:47:45 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:32:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:12:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 00:51:42 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 00:51:45 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:04:57 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:05:03 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:05:08 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:05:10 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:05:36 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:05:38 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:06:00 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:06:08 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:07:13 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:07:30 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\utils\generate.ts
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\utils\generate.ts:4:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:07:55 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:16:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:08:00 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:08:14 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:08:18 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:08:29 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:08:55 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:09:02 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:09:22 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:09:28 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:09:46 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:13:59 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:14:06 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:14:14 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:14:27 error: uncaughtException: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'package.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:21)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:15:30 error: uncaughtException: Cannot find module 'tsconfig.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'tsconfig.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:15:49 error: uncaughtException: Cannot find module 'tsconfig.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module 'tsconfig.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:17:18)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 01:56:56 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 01:57:22 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:01:16 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:03:20 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:03:50 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:04:11 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:04:34 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:05:16 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:05:28 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:05:32 error: [POST] /acronym >> StatusCode:: 400, Message:: acronym must be a string, description must be a string
+2022-09-13 02:18:20 error: uncaughtException: Cannot find module '../swagger.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '../swagger.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:14:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 02:18:32 error: uncaughtException: Cannot find module '../swagger.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '../swagger.json'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:14:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 02:20:16 error: [POST] /acronym >> StatusCode:: 409, Message:: Acronym already exist
+2022-09-13 02:22:04 error: [PUT] /acronym/xx >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-13 02:28:57 error: [DELETE] /acronym/zzzz >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-13 02:29:30 error: [DELETE] /acronym/zzzz >> StatusCode:: 404, Message:: Authentication token missing

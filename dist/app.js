@@ -79,7 +79,7 @@ let App = class App {
     constructor(routes){
         this.app = (0, _express.default)();
         this.env = _config.NODE_ENV || 'development';
-        this.port = 4000;
+        this.port = _config.PORT || 3000;
         this.initializeMiddlewares();
         this.initializeRoutes(routes);
         this.initializeSwagger();

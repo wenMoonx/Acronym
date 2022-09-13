@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "npm run build && cross-env NODE_ENV=production nodemon dist/server.js",
+    "start": "node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
     "build": "swc src -d dist --source-maps --copy-files",
     "build:tsc": "tsc && tsc-alias",
@@ -32,6 +32,7 @@
     "morgan": "^1.10.0",
     "swagger-jsdoc": "^6.2.1",
     "swagger-ui-express": "^4.5.0",
+    "typescript-swagger": "^0.1.2",
     "winston": "^3.8.1",
     "winston-daily-rotate-file": "^4.7.1"
   },

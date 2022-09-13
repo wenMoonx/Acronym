@@ -1,0 +1,13 @@
+basePath: /
+definitions: {}
+info:
+    description: '121212'
+    title: 'API - Documentation'
+    version: '11'
+paths: {}
+swagger: '2.0'
+securityDefinitions: {}
+consumes:
+    - application/json
+produces:
+    - application/json
