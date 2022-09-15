@@ -725,3 +725,8 @@
 2022-09-15 12:19:26 info: MongoDB Connected.
 2022-09-15 12:19:35 info: MongoDB Connected.
 2022-09-15 12:19:49 info: MongoDB Connected.
+2022-09-15 12:23:43 info: =================================
+2022-09-15 12:23:43 info: ======= ENV: production =======
+2022-09-15 12:23:43 info: 🚀 App listening on the port 3000
+2022-09-15 12:23:43 info: =================================
+2022-09-15 12:23:46 info: MongoDB Connected.

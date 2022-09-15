@@ -15,9 +15,9 @@ import { SwaggerConfig, generateDocumentation } from 'typescript-swagger';
 import { dbConnection } from '@databases';
 import { connect, set } from 'mongoose';
 import path from 'path';
-// import { graphqlHTTP } from 'express-graphql';
-// import schemas from '@graphql/schemas';
-// import resolvers from '@graphql/resolvers';
+import { graphqlHTTP } from 'express-graphql';
+import schemas from '@graphql/schemas';
+import resolvers from '@graphql/resolvers';
 
 const packageJson = require('../package.json');
 const tsConfig = require('../tsconfig.json');
@@ -54,18 +54,18 @@ class App {
     this.initializeRoutes(routes);
     this.initializeSwagger();
 
-    // this.app.use(
-    //   '/graphql',
-    //   graphqlHTTP((req, res) => ({
-    //     schema: schemas,
-    //     rootValue: resolvers,
-    //     graphiql: true,
-    //     context: {
-    //       req,
-    //       res,
-    //     },
-    //   })),
-    // );
+    this.app.use(
+      '/graphql',
+      graphqlHTTP((req, res) => ({
+        schema: schemas,
+        rootValue: resolvers,
+        graphiql: true,
+        context: {
+          req,
+          res,
+        },
+      })),
+    );
     this.initializeErrorHandling();
   }
 
