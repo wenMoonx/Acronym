@@ -1,0 +1,467 @@
+2022-09-14 00:03:03 info: =================================
+2022-09-14 00:03:03 info: ======= ENV: production =======
+2022-09-14 00:03:03 info: 🚀 App listening on the port 3000
+2022-09-14 00:03:03 info: =================================
+2022-09-14 00:06:51 info: =================================
+2022-09-14 00:06:51 info: ======= ENV: production =======
+2022-09-14 00:06:51 info: 🚀 App listening on the port 3000
+2022-09-14 00:06:51 info: =================================
+2022-09-14 00:07:07 info: =================================
+2022-09-14 00:07:07 info: ======= ENV: production =======
+2022-09-14 00:07:07 info: 🚀 App listening on the port 3000
+2022-09-14 00:07:07 info: =================================
+2022-09-14 00:09:53 info: =================================
+2022-09-14 00:09:53 info: ======= ENV: production =======
+2022-09-14 00:09:53 info: 🚀 App listening on the port 3000
+2022-09-14 00:09:53 info: =================================
+2022-09-14 00:09:59 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:09:59 +0000] "GET /acronym/?search=I HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:12:39 info: =================================
+2022-09-14 00:12:39 info: ======= ENV: production =======
+2022-09-14 00:12:39 info: 🚀 App listening on the port 3000
+2022-09-14 00:12:39 info: =================================
+2022-09-14 00:20:29 info: =================================
+2022-09-14 00:20:29 info: ======= ENV: production =======
+2022-09-14 00:20:29 info: 🚀 App listening on the port 3000
+2022-09-14 00:20:29 info: =================================
+2022-09-14 00:20:35 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:20:35 +0000] "GET /acronym/?search=I HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:20:40 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:20:40 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:21:17 info: =================================
+2022-09-14 00:21:17 info: ======= ENV: production =======
+2022-09-14 00:21:17 info: 🚀 App listening on the port 3000
+2022-09-14 00:21:17 info: =================================
+2022-09-14 00:21:25 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:21:25 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:24:59 info: =================================
+2022-09-14 00:24:59 info: ======= ENV: production =======
+2022-09-14 00:24:59 info: 🚀 App listening on the port 3000
+2022-09-14 00:24:59 info: =================================
+2022-09-14 00:26:09 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:26:09 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:28:09 info: =================================
+2022-09-14 00:28:09 info: ======= ENV: production =======
+2022-09-14 00:28:09 info: 🚀 App listening on the port 3000
+2022-09-14 00:28:09 info: =================================
+2022-09-14 00:28:19 info: =================================
+2022-09-14 00:28:19 info: ======= ENV: production =======
+2022-09-14 00:28:19 info: 🚀 App listening on the port 3000
+2022-09-14 00:28:19 info: =================================
+2022-09-14 00:29:02 info: =================================
+2022-09-14 00:29:02 info: ======= ENV: production =======
+2022-09-14 00:29:02 info: 🚀 App listening on the port 3000
+2022-09-14 00:29:02 info: =================================
+2022-09-14 00:30:23 info: =================================
+2022-09-14 00:30:23 info: ======= ENV: production =======
+2022-09-14 00:30:23 info: 🚀 App listening on the port 3000
+2022-09-14 00:30:23 info: =================================
+2022-09-14 00:30:37 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:30:37 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:33:30 info: =================================
+2022-09-14 00:33:30 info: ======= ENV: production =======
+2022-09-14 00:33:30 info: 🚀 App listening on the port 3000
+2022-09-14 00:33:30 info: =================================
+2022-09-14 00:33:48 info: =================================
+2022-09-14 00:33:48 info: ======= ENV: production =======
+2022-09-14 00:33:48 info: 🚀 App listening on the port 3000
+2022-09-14 00:33:48 info: =================================
+2022-09-14 00:34:08 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:34:08 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:34:23 info: =================================
+2022-09-14 00:34:23 info: ======= ENV: production =======
+2022-09-14 00:34:23 info: 🚀 App listening on the port 3000
+2022-09-14 00:34:23 info: =================================
+2022-09-14 00:34:44 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:34:44 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:38:15 info: =================================
+2022-09-14 00:38:15 info: ======= ENV: production =======
+2022-09-14 00:38:15 info: 🚀 App listening on the port 3000
+2022-09-14 00:38:15 info: =================================
+2022-09-14 00:38:20 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:38:20 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:38:29 info: =================================
+2022-09-14 00:38:29 info: ======= ENV: production =======
+2022-09-14 00:38:29 info: 🚀 App listening on the port 3000
+2022-09-14 00:38:29 info: =================================
+2022-09-14 00:38:51 info: =================================
+2022-09-14 00:38:51 info: ======= ENV: production =======
+2022-09-14 00:38:51 info: 🚀 App listening on the port 3000
+2022-09-14 00:38:51 info: =================================
+2022-09-14 00:38:56 info: =================================
+2022-09-14 00:38:56 info: ======= ENV: production =======
+2022-09-14 00:38:56 info: 🚀 App listening on the port 3000
+2022-09-14 00:38:56 info: =================================
+2022-09-14 00:40:19 info: =================================
+2022-09-14 00:40:19 info: ======= ENV: production =======
+2022-09-14 00:40:19 info: 🚀 App listening on the port 3000
+2022-09-14 00:40:19 info: =================================
+2022-09-14 00:40:30 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:40:30 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:40:48 info: =================================
+2022-09-14 00:40:48 info: ======= ENV: production =======
+2022-09-14 00:40:48 info: 🚀 App listening on the port 3000
+2022-09-14 00:40:48 info: =================================
+2022-09-14 00:40:53 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:40:53 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:41:00 info: =================================
+2022-09-14 00:41:00 info: ======= ENV: production =======
+2022-09-14 00:41:00 info: 🚀 App listening on the port 3000
+2022-09-14 00:41:00 info: =================================
+2022-09-14 00:46:53 info: =================================
+2022-09-14 00:46:53 info: ======= ENV: production =======
+2022-09-14 00:46:53 info: 🚀 App listening on the port 3000
+2022-09-14 00:46:53 info: =================================
+2022-09-14 00:47:32 info: =================================
+2022-09-14 00:47:32 info: ======= ENV: production =======
+2022-09-14 00:47:32 info: 🚀 App listening on the port 3000
+2022-09-14 00:47:32 info: =================================
+2022-09-14 00:47:40 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:47:40 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:51:41 info: =================================
+2022-09-14 00:51:41 info: ======= ENV: production =======
+2022-09-14 00:51:41 info: 🚀 App listening on the port 3000
+2022-09-14 00:51:41 info: =================================
+2022-09-14 00:52:55 info: =================================
+2022-09-14 00:52:55 info: ======= ENV: production =======
+2022-09-14 00:52:55 info: 🚀 App listening on the port 3000
+2022-09-14 00:52:55 info: =================================
+2022-09-14 00:53:06 info: =================================
+2022-09-14 00:53:06 info: ======= ENV: production =======
+2022-09-14 00:53:06 info: 🚀 App listening on the port 3000
+2022-09-14 00:53:06 info: =================================
+2022-09-14 00:53:20 info: =================================
+2022-09-14 00:53:20 info: ======= ENV: production =======
+2022-09-14 00:53:20 info: 🚀 App listening on the port 3000
+2022-09-14 00:53:20 info: =================================
+2022-09-14 00:53:59 info: =================================
+2022-09-14 00:53:59 info: ======= ENV: production =======
+2022-09-14 00:53:59 info: 🚀 App listening on the port 3000
+2022-09-14 00:53:59 info: =================================
+2022-09-14 00:54:11 info: =================================
+2022-09-14 00:54:11 info: ======= ENV: production =======
+2022-09-14 00:54:11 info: 🚀 App listening on the port 3000
+2022-09-14 00:54:11 info: =================================
+2022-09-14 00:55:42 info: =================================
+2022-09-14 00:55:42 info: ======= ENV: production =======
+2022-09-14 00:55:42 info: 🚀 App listening on the port 3000
+2022-09-14 00:55:42 info: =================================
+2022-09-14 00:55:59 info: ::ffff:127.0.0.1 - - [14/Sep/2022:07:55:59 +0000] "GET /acronym/?search=My HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 00:56:32 info: =================================
+2022-09-14 00:56:32 info: ======= ENV: production =======
+2022-09-14 00:56:32 info: 🚀 App listening on the port 3000
+2022-09-14 00:56:32 info: =================================
+2022-09-14 00:56:38 info: =================================
+2022-09-14 00:56:38 info: ======= ENV: production =======
+2022-09-14 00:56:38 info: 🚀 App listening on the port 3000
+2022-09-14 00:56:38 info: =================================
+2022-09-14 00:58:54 info: =================================
+2022-09-14 00:58:54 info: ======= ENV: production =======
+2022-09-14 00:58:54 info: 🚀 App listening on the port 3000
+2022-09-14 00:58:54 info: =================================
+2022-09-14 00:59:02 info: =================================
+2022-09-14 00:59:02 info: ======= ENV: production =======
+2022-09-14 00:59:02 info: 🚀 App listening on the port 3000
+2022-09-14 00:59:02 info: =================================
+2022-09-14 00:59:24 info: =================================
+2022-09-14 00:59:24 info: ======= ENV: production =======
+2022-09-14 00:59:24 info: 🚀 App listening on the port 3000
+2022-09-14 00:59:24 info: =================================
+2022-09-14 00:59:30 info: =================================
+2022-09-14 00:59:30 info: ======= ENV: production =======
+2022-09-14 00:59:30 info: 🚀 App listening on the port 3000
+2022-09-14 00:59:30 info: =================================
+2022-09-14 01:00:22 info: =================================
+2022-09-14 01:00:22 info: ======= ENV: production =======
+2022-09-14 01:00:22 info: 🚀 App listening on the port 3000
+2022-09-14 01:00:22 info: =================================
+2022-09-14 01:00:48 info: =================================
+2022-09-14 01:00:48 info: ======= ENV: production =======
+2022-09-14 01:00:48 info: 🚀 App listening on the port 3000
+2022-09-14 01:00:48 info: =================================
+2022-09-14 01:01:14 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:01:14 +0000] "POST /acronym/ZZZZZz HTTP/1.1" 404 154 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:01:25 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:01:25 +0000] "POST /acronym HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:01:59 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:01:59 +0000] "GET /acronym/ HTTP/1.1" 200 111 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:02:52 info: =================================
+2022-09-14 01:02:52 info: ======= ENV: production =======
+2022-09-14 01:02:52 info: 🚀 App listening on the port 3000
+2022-09-14 01:02:52 info: =================================
+2022-09-14 01:03:05 info: =================================
+2022-09-14 01:03:05 info: ======= ENV: production =======
+2022-09-14 01:03:05 info: 🚀 App listening on the port 3000
+2022-09-14 01:03:05 info: =================================
+2022-09-14 01:03:09 info: =================================
+2022-09-14 01:03:09 info: ======= ENV: production =======
+2022-09-14 01:03:09 info: 🚀 App listening on the port 3000
+2022-09-14 01:03:09 info: =================================
+2022-09-14 01:03:14 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:03:14 +0000] "GET /acronym/ HTTP/1.1" 200 111 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:03:31 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:03:31 +0000] "GET /acronym/?search=do HTTP/1.1" 200 111 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:03:35 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:03:35 +0000] "GET /acronym/?search=doa HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:03:42 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:03:42 +0000] "GET /acronym/?search= HTTP/1.1" 200 111 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:03:56 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:03:56 +0000] "GET /acronym/?search=&from=1 HTTP/1.1" 200 28 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:04:13 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:04:13 +0000] "GET /acronym/?search=&from=0 HTTP/1.1" 200 111 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:05:06 info: =================================
+2022-09-14 01:05:06 info: ======= ENV: production =======
+2022-09-14 01:05:06 info: 🚀 App listening on the port 3000
+2022-09-14 01:05:06 info: =================================
+2022-09-14 01:05:14 error: [POST] /acronym >> StatusCode:: 409, Message:: This WTF YYY already exists
+2022-09-14 01:05:14 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:05:14 +0000] "POST /acronym HTTP/1.1" 409 41 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:05:23 info: =================================
+2022-09-14 01:05:23 info: ======= ENV: production =======
+2022-09-14 01:05:23 info: 🚀 App listening on the port 3000
+2022-09-14 01:05:23 info: =================================
+2022-09-14 01:05:27 error: [POST] /acronym >> StatusCode:: 409, Message:: This WTF:YYY already exists
+2022-09-14 01:05:27 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:05:27 +0000] "POST /acronym HTTP/1.1" 409 41 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:05:52 info: =================================
+2022-09-14 01:05:52 info: ======= ENV: production =======
+2022-09-14 01:05:52 info: 🚀 App listening on the port 3000
+2022-09-14 01:05:52 info: =================================
+2022-09-14 01:05:58 info: =================================
+2022-09-14 01:05:58 info: ======= ENV: production =======
+2022-09-14 01:05:58 info: 🚀 App listening on the port 3000
+2022-09-14 01:05:58 info: =================================
+2022-09-14 01:06:07 info: =================================
+2022-09-14 01:06:07 info: ======= ENV: production =======
+2022-09-14 01:06:07 info: 🚀 App listening on the port 3000
+2022-09-14 01:06:07 info: =================================
+2022-09-14 01:07:11 info: =================================
+2022-09-14 01:07:11 info: ======= ENV: production =======
+2022-09-14 01:07:11 info: 🚀 App listening on the port 3000
+2022-09-14 01:07:11 info: =================================
+2022-09-14 01:07:16 info: =================================
+2022-09-14 01:07:16 info: ======= ENV: production =======
+2022-09-14 01:07:16 info: 🚀 App listening on the port 3000
+2022-09-14 01:07:16 info: =================================
+2022-09-14 01:07:31 info: =================================
+2022-09-14 01:07:31 info: ======= ENV: production =======
+2022-09-14 01:07:31 info: 🚀 App listening on the port 3000
+2022-09-14 01:07:31 info: =================================
+2022-09-14 01:08:39 info: =================================
+2022-09-14 01:08:39 info: ======= ENV: production =======
+2022-09-14 01:08:39 info: 🚀 App listening on the port 3000
+2022-09-14 01:08:39 info: =================================
+2022-09-14 01:08:42 info: =================================
+2022-09-14 01:08:42 info: ======= ENV: production =======
+2022-09-14 01:08:42 info: 🚀 App listening on the port 3000
+2022-09-14 01:08:42 info: =================================
+2022-09-14 01:08:47 info: =================================
+2022-09-14 01:08:47 info: ======= ENV: production =======
+2022-09-14 01:08:47 info: 🚀 App listening on the port 3000
+2022-09-14 01:08:47 info: =================================
+2022-09-14 01:09:55 info: =================================
+2022-09-14 01:09:55 info: ======= ENV: production =======
+2022-09-14 01:09:55 info: 🚀 App listening on the port 3000
+2022-09-14 01:09:55 info: =================================
+2022-09-14 01:10:21 info: =================================
+2022-09-14 01:10:21 info: ======= ENV: production =======
+2022-09-14 01:10:21 info: 🚀 App listening on the port 3000
+2022-09-14 01:10:21 info: =================================
+2022-09-14 01:14:40 info: =================================
+2022-09-14 01:14:40 info: ======= ENV: production =======
+2022-09-14 01:14:40 info: 🚀 App listening on the port 3000
+2022-09-14 01:14:40 info: =================================
+2022-09-14 01:17:31 info: =================================
+2022-09-14 01:17:31 info: ======= ENV: production =======
+2022-09-14 01:17:31 info: 🚀 App listening on the port 3000
+2022-09-14 01:17:31 info: =================================
+2022-09-14 01:23:21 info: =================================
+2022-09-14 01:23:21 info: ======= ENV: production =======
+2022-09-14 01:23:21 info: 🚀 App listening on the port 3000
+2022-09-14 01:23:21 info: =================================
+2022-09-14 01:24:10 info: =================================
+2022-09-14 01:24:10 info: ======= ENV: production =======
+2022-09-14 01:24:10 info: 🚀 App listening on the port 3000
+2022-09-14 01:24:10 info: =================================
+2022-09-14 01:27:30 info: =================================
+2022-09-14 01:27:30 info: ======= ENV: production =======
+2022-09-14 01:27:30 info: 🚀 App listening on the port 3000
+2022-09-14 01:27:30 info: =================================
+2022-09-14 01:30:04 info: =================================
+2022-09-14 01:30:04 info: ======= ENV: production =======
+2022-09-14 01:30:04 info: 🚀 App listening on the port 3000
+2022-09-14 01:30:04 info: =================================
+2022-09-14 01:30:20 info: =================================
+2022-09-14 01:30:20 info: ======= ENV: production =======
+2022-09-14 01:30:20 info: 🚀 App listening on the port 3000
+2022-09-14 01:30:20 info: =================================
+2022-09-14 01:31:48 info: =================================
+2022-09-14 01:31:48 info: ======= ENV: production =======
+2022-09-14 01:31:48 info: 🚀 App listening on the port 3000
+2022-09-14 01:31:48 info: =================================
+2022-09-14 01:32:26 info: =================================
+2022-09-14 01:32:26 info: ======= ENV: production =======
+2022-09-14 01:32:26 info: 🚀 App listening on the port 3000
+2022-09-14 01:32:26 info: =================================
+2022-09-14 01:32:31 info: =================================
+2022-09-14 01:32:31 info: ======= ENV: production =======
+2022-09-14 01:32:31 info: 🚀 App listening on the port 3000
+2022-09-14 01:32:31 info: =================================
+2022-09-14 01:34:10 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:34:10 +0000] "GET /acronym/?search=&from=0 HTTP/1.1" 200 111 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:35:08 info: =================================
+2022-09-14 01:35:08 info: ======= ENV: production =======
+2022-09-14 01:35:08 info: 🚀 App listening on the port 3000
+2022-09-14 01:35:09 info: =================================
+2022-09-14 01:35:19 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:35:19 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:35:19 +0000] "POST /acronym HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:35:35 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:35:35 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:35:35 +0000] "POST /acronym HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:36:21 info: =================================
+2022-09-14 01:36:21 info: ======= ENV: production =======
+2022-09-14 01:36:21 info: 🚀 App listening on the port 3000
+2022-09-14 01:36:21 info: =================================
+2022-09-14 01:36:33 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:36:33 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:36:33 +0000] "POST /acronym HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:37:41 error: [PUT] /acronym/YYY >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-14 01:37:41 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:37:41 +0000] "PUT /acronym/YYY HTTP/1.1" 404 42 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:37:55 error: [PUT] /acronym/YYY >> StatusCode:: 400, Message:: acronymData is empty
+2022-09-14 01:37:55 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:37:55 +0000] "PUT /acronym/YYY HTTP/1.1" 400 34 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:38:54 info: =================================
+2022-09-14 01:38:54 info: ======= ENV: production =======
+2022-09-14 01:38:54 info: 🚀 App listening on the port 3000
+2022-09-14 01:38:54 info: =================================
+2022-09-14 01:38:56 error: [PUT] /acronym/YYY >> StatusCode:: 400, Message:: acronymData is empty
+2022-09-14 01:38:56 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:38:56 +0000] "PUT /acronym/YYY HTTP/1.1" 400 34 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:39:14 info: =================================
+2022-09-14 01:39:14 info: ======= ENV: production =======
+2022-09-14 01:39:14 info: 🚀 App listening on the port 3000
+2022-09-14 01:39:14 info: =================================
+2022-09-14 01:39:26 error: [PUT] /acronym/YYY >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:39:26 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:39:26 +0000] "PUT /acronym/YYY HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:42:40 info: =================================
+2022-09-14 01:42:40 info: ======= ENV: production =======
+2022-09-14 01:42:40 info: 🚀 App listening on the port 3000
+2022-09-14 01:42:40 info: =================================
+2022-09-14 01:43:08 info: MongoDB ConnectError: await is not defined
+2022-09-14 01:43:10 info: =================================
+2022-09-14 01:43:10 info: ======= ENV: production =======
+2022-09-14 01:43:10 info: 🚀 App listening on the port 3000
+2022-09-14 01:43:10 info: =================================
+2022-09-14 01:43:24 info: =================================
+2022-09-14 01:43:24 info: ======= ENV: production =======
+2022-09-14 01:43:24 info: 🚀 App listening on the port 3000
+2022-09-14 01:43:24 info: =================================
+2022-09-14 01:43:41 info: =================================
+2022-09-14 01:43:41 info: ======= ENV: production =======
+2022-09-14 01:43:41 info: 🚀 App listening on the port 3000
+2022-09-14 01:43:41 info: =================================
+2022-09-14 01:44:43 info: MongoDB ConnectError: connection 1 to 44.228.251.0:27017 closed
+2022-09-14 01:46:18 info: =================================
+2022-09-14 01:46:18 info: ======= ENV: production =======
+2022-09-14 01:46:18 info: 🚀 App listening on the port 3000
+2022-09-14 01:46:18 info: =================================
+2022-09-14 01:46:35 info: MongoDB Connected.
+2022-09-14 01:46:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:46:51 +0000] "PUT /acronym/YYY HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:46:57 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:46:57 +0000] "POST /acronym HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:47:00 error: [POST] /acronym >> StatusCode:: 409, Message:: This WTF:YYY already exists
+2022-09-14 01:47:00 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:47:00 +0000] "POST /acronym HTTP/1.1" 409 41 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:47:08 error: [PUT] /acronym/YYY >> StatusCode:: 409, Message:: This WTF:ZZZ already exists
+2022-09-14 01:47:08 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:47:08 +0000] "PUT /acronym/YYY HTTP/1.1" 409 41 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:47:18 error: [PUT] /acronym/YYYY >> StatusCode:: 409, Message:: Acronym does not exist
+2022-09-14 01:47:18 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:47:18 +0000] "PUT /acronym/YYYY HTTP/1.1" 409 36 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:47:38 info: =================================
+2022-09-14 01:47:38 info: ======= ENV: production =======
+2022-09-14 01:47:38 info: 🚀 App listening on the port 3000
+2022-09-14 01:47:38 info: =================================
+2022-09-14 01:47:42 info: MongoDB Connected.
+2022-09-14 01:48:54 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:48:54 +0000] "DELETE /YYYY HTTP/1.1" 404 146 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:50:16 error: [DELETE] /acronym/YYYY >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-14 01:50:16 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:50:16 +0000] "DELETE /acronym/YYYY HTTP/1.1" 404 42 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:50:25 error: [DELETE] /acronym/YYYY >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-14 01:50:25 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:50:25 +0000] "DELETE /acronym/YYYY HTTP/1.1" 409 35 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:50:37 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:50:37 +0000] "DELETE /acronym/YYY HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:50:43 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:50:43 +0000] "GET /acronym/?search=&from=0 HTTP/1.1" 200 109 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:54:36 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:54:36 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:54:36 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:54:36 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:54:36 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:54:36 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:54:36 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:54:36 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:54:36 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:54:36 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:54:36 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:54:36 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:55:23 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:55:23 +0000] "GET /acronym?from=0&limit=10 HTTP/1.1" 200 109 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 01:56:06 info: =================================
+2022-09-14 01:56:06 info: ======= ENV: production =======
+2022-09-14 01:56:06 info: 🚀 App listening on the port 3000
+2022-09-14 01:56:06 info: =================================
+2022-09-14 01:56:13 info: =================================
+2022-09-14 01:56:13 info: ======= ENV: production =======
+2022-09-14 01:56:13 info: 🚀 App listening on the port 3000
+2022-09-14 01:56:13 info: =================================
+2022-09-14 01:56:22 info: =================================
+2022-09-14 01:56:22 info: ======= ENV: production =======
+2022-09-14 01:56:22 info: 🚀 App listening on the port 3000
+2022-09-14 01:56:22 info: =================================
+2022-09-14 01:56:42 info: =================================
+2022-09-14 01:56:42 info: ======= ENV: production =======
+2022-09-14 01:56:42 info: 🚀 App listening on the port 3000
+2022-09-14 01:56:42 info: =================================
+2022-09-14 01:56:53 info: =================================
+2022-09-14 01:56:53 info: ======= ENV: production =======
+2022-09-14 01:56:53 info: 🚀 App listening on the port 3000
+2022-09-14 01:56:53 info: =================================
+2022-09-14 01:56:57 info: =================================
+2022-09-14 01:56:57 info: ======= ENV: production =======
+2022-09-14 01:56:57 info: 🚀 App listening on the port 3000
+2022-09-14 01:56:57 info: =================================
+2022-09-14 01:57:10 info: =================================
+2022-09-14 01:57:10 info: ======= ENV: production =======
+2022-09-14 01:57:10 info: 🚀 App listening on the port 3000
+2022-09-14 01:57:10 info: =================================
+2022-09-14 01:57:57 info: =================================
+2022-09-14 01:57:57 info: ======= ENV: production =======
+2022-09-14 01:57:57 info: 🚀 App listening on the port 3000
+2022-09-14 01:57:57 info: =================================
+2022-09-14 01:58:12 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:58:12 info: ::ffff:127.0.0.1 - - [14/Sep/2022:08:58:12 +0000] "POST /acronym HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 01:59:10 info: =================================
+2022-09-14 01:59:10 info: ======= ENV: production =======
+2022-09-14 01:59:10 info: 🚀 App listening on the port 3000
+2022-09-14 01:59:10 info: =================================
+2022-09-14 01:59:53 info: =================================
+2022-09-14 01:59:53 info: ======= ENV: production =======
+2022-09-14 01:59:53 info: 🚀 App listening on the port 3000
+2022-09-14 01:59:53 info: =================================
+2022-09-14 02:00:03 info: =================================
+2022-09-14 02:00:03 info: ======= ENV: production =======
+2022-09-14 02:00:03 info: 🚀 App listening on the port 3000
+2022-09-14 02:00:03 info: =================================
+2022-09-14 02:00:16 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 02:00:16 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:00:16 +0000] "POST /acronym HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 02:00:38 info: =================================
+2022-09-14 02:00:38 info: ======= ENV: production =======
+2022-09-14 02:00:38 info: 🚀 App listening on the port 3000
+2022-09-14 02:00:38 info: =================================
+2022-09-14 02:00:52 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 02:00:52 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:00:52 +0000] "POST /acronym HTTP/1.1" 500 78 "-" "PostmanRuntime/7.29.2"
+2022-09-14 02:01:04 info: =================================
+2022-09-14 02:01:04 info: ======= ENV: production =======
+2022-09-14 02:01:04 info: 🚀 App listening on the port 3000
+2022-09-14 02:01:04 info: =================================
+2022-09-14 02:02:38 info: MongoDB Connected.
+2022-09-14 02:03:33 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:03:33 +0000] "POST /acronym HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+2022-09-14 02:04:28 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:04:28 +0000] "GET /acronym?from=0&limit=10 HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:04:52 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:04:52 +0000] "GET /acronym?from=0&limit=100 HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:05:45 info: =================================
+2022-09-14 02:05:45 info: ======= ENV: production =======
+2022-09-14 02:05:45 info: 🚀 App listening on the port 3000
+2022-09-14 02:05:45 info: =================================
+2022-09-14 02:05:53 info: =================================
+2022-09-14 02:05:53 info: ======= ENV: production =======
+2022-09-14 02:05:53 info: 🚀 App listening on the port 3000
+2022-09-14 02:05:53 info: =================================
+2022-09-14 02:06:03 info: =================================
+2022-09-14 02:06:03 info: ======= ENV: production =======
+2022-09-14 02:06:03 info: 🚀 App listening on the port 3000
+2022-09-14 02:06:03 info: =================================
+2022-09-14 02:07:04 error: [PUT] /acronym/WWW >> StatusCode:: 400, Message:: property description should not exist, newDescription must be a string
+2022-09-14 02:07:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:04 +0000] "PUT /acronym/WWW HTTP/1.1" 400 84 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:22 info: MongoDB Connected.
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:02 info: =================================
+2022-09-14 02:08:02 info: ======= ENV: production =======
+2022-09-14 02:08:02 info: 🚀 App listening on the port 3000
+2022-09-14 02:08:02 info: =================================
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:06 info: MongoDB Connected.
+2022-09-14 02:08:22 error: [PUT] /acronym/WWW >> StatusCode:: 409, Message:: Acronym does not exist
+2022-09-14 02:08:22 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:22 +0000] "PUT /acronym/WWW HTTP/1.1" 409 36 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:47 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:47 +0000] "PUT /acronym/ZZZ HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:09:11 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:09:11 +0000] "DELETE /acronym/AAA HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"

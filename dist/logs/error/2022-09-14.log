@@ -1,0 +1,64 @@
+2022-09-14 01:05:14 error: [POST] /acronym >> StatusCode:: 409, Message:: This WTF YYY already exists
+2022-09-14 01:05:27 error: [POST] /acronym >> StatusCode:: 409, Message:: This WTF:YYY already exists
+2022-09-14 01:21:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m81[0m:[93m41[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m81[0m     if (isEmpty(findAcronym.acronym )&& ) throw new HttpException(409, `This WTF:${nowAcronym} already exists`);
+[7m  [0m [91m                                        ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m81[0m:[93m41[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m81[0m     if (isEmpty(findAcronym.acronym )&& ) throw new HttpException(409, `This WTF:${nowAcronym} already exists`);
+[7m  [0m [91m                                        ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-14 01:35:19 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:35:35 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:36:33 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:37:41 error: [PUT] /acronym/YYY >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-14 01:37:55 error: [PUT] /acronym/YYY >> StatusCode:: 400, Message:: acronymData is empty
+2022-09-14 01:38:56 error: [PUT] /acronym/YYY >> StatusCode:: 400, Message:: acronymData is empty
+2022-09-14 01:39:26 error: [PUT] /acronym/YYY >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 01:41:46 error: uncaughtException: this.connectToDatabase is not a function
+TypeError: this.connectToDatabase is not a function
+    at new App (D:\__Work\__Others\Acronym\src\app.ts:50:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at phase4 (D:\__Work\__Others\Acronym\node_modules\ts-node\src\bin.ts:649:14)
+2022-09-14 01:41:56 error: uncaughtException: this.connectToDatabase is not a function
+TypeError: this.connectToDatabase is not a function
+    at new App (D:\__Work\__Others\Acronym\src\app.ts:50:10)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:13)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at phase4 (D:\__Work\__Others\Acronym\node_modules\ts-node\src\bin.ts:649:14)
+2022-09-14 01:47:00 error: [POST] /acronym >> StatusCode:: 409, Message:: This WTF:YYY already exists
+2022-09-14 01:47:08 error: [PUT] /acronym/YYY >> StatusCode:: 409, Message:: This WTF:ZZZ already exists
+2022-09-14 01:47:18 error: [PUT] /acronym/YYYY >> StatusCode:: 409, Message:: Acronym does not exist
+2022-09-14 01:50:16 error: [DELETE] /acronym/YYYY >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-14 01:50:25 error: [DELETE] /acronym/YYYY >> StatusCode:: 409, Message:: Acronym doesn't exist
+2022-09-14 01:58:12 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 02:00:16 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 02:00:52 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
+2022-09-14 02:07:04 error: [PUT] /acronym/WWW >> StatusCode:: 400, Message:: property description should not exist, newDescription must be a string

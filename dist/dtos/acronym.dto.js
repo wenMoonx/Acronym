@@ -39,6 +39,10 @@ __decorate([
     (0, _classValidator.IsString)(),
     __metadata("design:type", String)
 ], updateAcronymDto.prototype, "newAcronym", void 0);
+__decorate([
+    (0, _classValidator.IsString)(),
+    __metadata("design:type", String)
+], updateAcronymDto.prototype, "newDescription", void 0);
 let deleteAcronymDto = class deleteAcronymDto {
 };
 __decorate([

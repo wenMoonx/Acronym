@@ -1,9 +1,15 @@
 import { NextFunction, Request, Response } from 'express';
+import { Path, Accept, GET, POST, QueryParam } from 'typescript-rest';
+import { SwaggerTags, ResponseProduces } from 'typescript-swagger';
+
 import { CreateAcronymDto } from '@dtos/acronym.dto';
 import AcronymService from '@services/acronym.service';
+@Path('/acronym')
 class AcronymController {
   public acronymService = new AcronymService();
 
+  @GET
+  @SwaggerTags('adiministrative', 'department1')
   public readAcronym = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       const { from = 0, limit = 10, search = '' } = req.query;
@@ -41,9 +47,10 @@ class AcronymController {
 
   public updateAcronym = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const newAcronym: string = req.body.newAcronym;
       const nowAcronym: string = req.params.nowAcronym;
-      const isSuccess = await this.acronymService.updateAcronym(nowAcronym, newAcronym);
+      const newAcronym: string = req.body.newAcronym;
+      const newDescription: string = req.body.newDescription;
+      const isSuccess = await this.acronymService.updateAcronym(nowAcronym, newAcronym, newDescription);
       if (isSuccess) {
         res.status(200).json({
           message: 'The acronym updated successfully.',

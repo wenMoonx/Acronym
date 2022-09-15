@@ -6,6 +6,7 @@ Object.defineProperty(exports, "default", {
     enumerable: true,
     get: ()=>_default
 });
+const _util = require("../utils/util");
 const _httpException = require("../exceptions/HttpException");
 const _acronymModel = _interopRequireDefault(require("../models/acronym.model"));
 function _interopRequireDefault(obj) {
@@ -15,43 +16,57 @@ function _interopRequireDefault(obj) {
 }
 let AcronymService = class AcronymService {
     async readAcronym(from, limit, search) {
-        const findAcronyms = this.acronyms.filter((acronym)=>{
-            const key = Object.keys(acronym)[0];
-            if (key.search(search) !== -1 || acronym[key].search(search) !== -1) {
-                return acronym;
+        const findAcronyms = await this.acronyms.find({
+            description: {
+                $regex: search
             }
-        });
+        }).skip(from).limit(limit);
         return {
-            acronyms: findAcronyms.slice(Number(from), Number(from) + Number(limit) + 1),
-            isOnly: findAcronyms.length >= limit
+            isOnly: true,
+            acronyms: findAcronyms
         };
     }
     async createAcronym(acronym, description) {
-        if (this.acronyms.some((data)=>Object.keys(data)[0] === acronym)) throw new _httpException.HttpException(409, 'Acronym already exist');
-        this.acronyms.push({
-            [acronym]: description
+        if ((0, _util.isEmpty)(acronym) || (0, _util.isEmpty)(description)) throw new _httpException.HttpException(400, 'AcronymData is empty');
+        const findAcronym = await this.acronyms.findOne({
+            acronym: acronym
         });
-        return _acronymModel.default.writeFile(JSON.stringify(this.acronyms));
+        if (findAcronym) throw new _httpException.HttpException(409, `This WTF:${acronym} already exists`);
+        await this.acronyms.create({
+            acronym: acronym,
+            description: description
+        });
+        return true;
     }
-    async updateAcronym(nowAcronym, newAcronym) {
-        const findAcronym = this.acronyms.find((acronym)=>Object.keys(acronym)[0] === nowAcronym);
-        if (!findAcronym) throw new _httpException.HttpException(409, "Acronym doesn't exist");
-        const updateAcronymData = this.acronyms.map((acronym)=>{
-            if (Object.keys(acronym)[0] === nowAcronym) acronym = {
-                [newAcronym]: acronym[nowAcronym]
-            };
-            return acronym;
+    async updateAcronym(nowAcronym, newAcronym, newDescription) {
+        if ((0, _util.isEmpty)(newAcronym) || (0, _util.isEmpty)(newDescription)) throw new _httpException.HttpException(400, 'acronymData is empty');
+        const findNowAcronym = await this.acronyms.findOne({
+            acronym: nowAcronym
         });
-        return _acronymModel.default.writeFile(JSON.stringify(updateAcronymData));
+        if ((0, _util.isEmpty)(findNowAcronym)) throw new _httpException.HttpException(409, 'Acronym does not exist');
+        const findAcronym = await this.acronyms.findOne({
+            acronym: newAcronym
+        });
+        if (findAcronym && findAcronym.acronym != nowAcronym) throw new _httpException.HttpException(409, `This WTF:${newAcronym} already exists`);
+        await this.acronyms.updateOne({
+            acronym: nowAcronym
+        }, {
+            acronym: newAcronym,
+            description: newDescription
+        });
+        return true;
     }
     async deleteAcronym(deleteAcronym) {
-        const findAcronym = this.acronyms.find((acronym)=>Object.keys(acronym)[0] === deleteAcronym);
-        if (!findAcronym) throw new _httpException.HttpException(409, "Acronym doesn't exist");
-        const deleteAcronymData = this.acronyms.filter((acronym)=>Object.keys(acronym)[0] !== deleteAcronym);
-        return _acronymModel.default.writeFile(JSON.stringify(deleteAcronymData));
+        const findAcronym = await this.acronyms.findOne({
+            acronym: deleteAcronym
+        });
+        if ((0, _util.isEmpty)(findAcronym)) throw new _httpException.HttpException(409, "Acronym doesn't exist");
+        return await this.acronyms.deleteOne({
+            acronym: deleteAcronym
+        });
     }
     constructor(){
-        this.acronyms = _acronymModel.default.readFile();
+        this.acronyms = _acronymModel.default;
     }
 };
 const _default = AcronymService;

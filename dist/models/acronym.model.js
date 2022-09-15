@@ -6,28 +6,19 @@ Object.defineProperty(exports, "default", {
     enumerable: true,
     get: ()=>_default
 });
-const _fs = _interopRequireDefault(require("fs"));
-const _httpException = require("../exceptions/HttpException");
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        default: obj
-    };
-}
-const filePath = './src/config/db.json';
-const readFile = ()=>{
-    return JSON.parse(_fs.default.readFileSync(filePath, 'utf8').toString());
-};
-const writeFile = (newFile)=>{
-    try {
-        _fs.default.writeFileSync(filePath, newFile);
-    } catch (error) {
-        throw new _httpException.HttpException(409, 'An error occured while writing the json file.');
+const _mongoose = require("mongoose");
+const acronymSchema = new _mongoose.Schema({
+    acronym: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    description: {
+        type: String,
+        required: true
     }
-    return true;
-};
-const _default = {
-    readFile,
-    writeFile
-};
+});
+const acronymModel = (0, _mongoose.model)('Acronym', acronymSchema);
+const _default = acronymModel;
 
 //# sourceMappingURL=acronym.model.js.map

@@ -2,9 +2,15 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-Object.defineProperty(exports, "default", {
-    enumerable: true,
-    get: ()=>_default
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
+}
+_export(exports, {
+    swaggerConfig: ()=>swaggerConfig,
+    default: ()=>_default
 });
 const _compression = _interopRequireDefault(require("compression"));
 const _cookieParser = _interopRequireDefault(require("cookie-parser"));
@@ -18,11 +24,43 @@ const _swaggerUiExpress = _interopRequireDefault(require("swagger-ui-express"));
 const _config = require("./config");
 const _errorMiddleware = _interopRequireDefault(require("./middlewares/error.middleware"));
 const _logger = require("./utils/logger");
+const _typescriptSwagger = require("typescript-swagger");
+const _databases = require("@databases");
+const _mongoose = require("mongoose");
+const _path = _interopRequireDefault(require("path"));
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
     };
 }
+const packageJson = require('../package.json');
+const tsConfig = require('../tsconfig.json');
+const swaggerConfig = {
+    yaml: true,
+    name: 'API - Documentation',
+    description: packageJson.description,
+    basePath: '/',
+    host: 'localhost:3000',
+    version: packageJson.version,
+    outputDirectory: 'public',
+    entryFile: _path.default.join('src', 'controllers', '**', '*.ts'),
+    decoratorConfig: {
+        useBuildIn: true,
+        useLibrary: [
+            'typescript-rest',
+            '@decorators/express'
+        ]
+    },
+    ignore: [
+        '**/node_modules/**'
+    ],
+    consumes: [
+        'application/json'
+    ],
+    produces: [
+        'application/json'
+    ]
+};
 let App = class App {
     listen() {
         this.app.listen(this.port, ()=>{
@@ -34,6 +72,17 @@ let App = class App {
     }
     getServer() {
         return this.app;
+    }
+    async connectToDatabase() {
+        if (this.env !== 'production') {
+            (0, _mongoose.set)('debug', true);
+        }
+        try {
+            await (0, _mongoose.connect)(_databases.dbConnection.url, _databases.dbConnection.options);
+            _logger.logger.info('MongoDB Connected.');
+        } catch (error) {
+            _logger.logger.info('MongoDB ConnectError:', error);
+        }
     }
     initializeMiddlewares() {
         this.app.use((0, _morgan.default)(_config.LOG_FORMAT, {
@@ -57,7 +106,8 @@ let App = class App {
             this.app.use('/', route.router);
         });
     }
-    initializeSwagger() {
+    async initializeSwagger() {
+        await (0, _typescriptSwagger.generateDocumentation)(swaggerConfig, tsConfig);
         const options = {
             swaggerDefinition: {
                 info: {
@@ -81,6 +131,7 @@ let App = class App {
         this.env = _config.NODE_ENV || 'development';
         this.port = _config.PORT || 3000;
         this.initializeMiddlewares();
+        this.connectToDatabase();
         this.initializeRoutes(routes);
         this.initializeSwagger();
         this.initializeErrorHandling();

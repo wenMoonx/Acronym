@@ -11,7 +11,31 @@ import { NODE_ENV, PORT, LOG_FORMAT, ORIGIN, CREDENTIALS } from '@config';
 import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
+import { SwaggerConfig, generateDocumentation } from 'typescript-swagger';
+import { dbConnection } from '@databases';
+import { connect, set } from 'mongoose';
+import path from 'path';
 
+const packageJson = require('../package.json');
+const tsConfig = require('../tsconfig.json');
+
+export const swaggerConfig: SwaggerConfig = {
+  yaml: true,
+  name: 'API - Documentation',
+  description: packageJson.description,
+  basePath: '/',
+  host: 'localhost:3000',
+  version: packageJson.version,
+  outputDirectory: 'public',
+  entryFile: path.join('src', 'controllers', '**', '*.ts'),
+  decoratorConfig: {
+    useBuildIn: true,
+    useLibrary: ['typescript-rest', '@decorators/express'],
+  },
+  ignore: ['**/node_modules/**'],
+  consumes: ['application/json'],
+  produces: ['application/json'],
+};
 class App {
   public app: express.Application;
   public env: string;
@@ -23,6 +47,7 @@ class App {
     this.port = PORT || 3000;
 
     this.initializeMiddlewares();
+    this.connectToDatabase();
     this.initializeRoutes(routes);
     this.initializeSwagger();
     this.initializeErrorHandling();
@@ -41,6 +66,17 @@ class App {
     return this.app;
   }
 
+  private async connectToDatabase() {
+    if (this.env !== 'production') {
+      set('debug', true);
+    }
+    try {
+      await connect(dbConnection.url, dbConnection.options);
+      logger.info('MongoDB Connected.');
+    } catch (error) {
+      logger.info('MongoDB ConnectError:', error);
+    }
+  }
   private initializeMiddlewares() {
     this.app.use(morgan(LOG_FORMAT, { stream }));
     this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
@@ -58,7 +94,8 @@ class App {
     });
   }
 
-  private initializeSwagger() {
+  private async initializeSwagger() {
+    await generateDocumentation(swaggerConfig, tsConfig);
     const options = {
       swaggerDefinition: {
         info: {

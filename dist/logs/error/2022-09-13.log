@@ -1064,3 +1064,1589 @@ Require stack:
 2022-09-13 02:22:04 error: [PUT] /acronym/xx >> StatusCode:: 404, Message:: Authentication token missing
 2022-09-13 02:28:57 error: [DELETE] /acronym/zzzz >> StatusCode:: 409, Message:: Acronym doesn't exist
 2022-09-13 02:29:30 error: [DELETE] /acronym/zzzz >> StatusCode:: 404, Message:: Authentication token missing
+2022-09-13 03:55:06 error: uncaughtException: Controller is not defined
+ReferenceError: Controller is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:6:6)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 03:59:57 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:00:00 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:00:04 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:00:10 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:17:40 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:17:51 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:17:59 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:18:51 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:21:01 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:22:49 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:22:53 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:23:17 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:26:14 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:28:49 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:28:55 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:29:22 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:31:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/acronym.controller.ts[0m:[93m12[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m12[0m   Path(':from')
+[7m  [0m [91m       ~~~~~~~[0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m13[0m   Path(':limit')
+[7m  [0m [91m       ~~~~~~~~[0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m14[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m14[0m   Path(':search')
+[7m  [0m [91m       ~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/acronym.controller.ts[0m:[93m12[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m12[0m   Path(':from')
+[7m  [0m [91m       ~~~~~~~[0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m13[0m   Path(':limit')
+[7m  [0m [91m       ~~~~~~~~[0m
+[96msrc/controllers/acronym.controller.ts[0m:[93m14[0m:[93m8[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m14[0m   Path(':search')
+[7m  [0m [91m       ~~~~~~~~~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 04:31:55 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:33:30 error: uncaughtException: GET is not defined
+ReferenceError: GET is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 04:35:29 error: uncaughtException: GET is not defined
+ReferenceError: GET is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 04:35:39 error: uncaughtException: GET is not defined
+ReferenceError: GET is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:13:4)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 04:36:20 error: uncaughtException: Cannot read property 'addOperationPath' of undefined
+TypeError: Cannot read property 'addOperationPath' of undefined
+    at Map.beforeInit (D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\operations\route.ts:61:35)
+    at Map.bind (D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\domain\DecoratorContext.ts:89:10)
+    at decorator (D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\domain\DecoratorContext.ts:35:67)
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:13:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 04:36:26 error: uncaughtException: Cannot read property 'addOperationPath' of undefined
+TypeError: Cannot read property 'addOperationPath' of undefined
+    at Map.beforeInit (D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\operations\route.ts:61:35)
+    at Map.bind (D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\domain\DecoratorContext.ts:89:10)
+    at decorator (D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\domain\DecoratorContext.ts:35:67)
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:13:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 04:36:35 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:38:30 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:39:59 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 04:41:07 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:41:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m9[0m @Controller('/acronym');
+[7m [0m [91m                       [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m9[0m @Controller('/acronym');
+[7m [0m [91m                       [0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 04:41:14 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:41:24 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:41:38 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:41:39 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:41:43 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:41:59 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\services\acronym.service.ts
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:42:44 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:56:18 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:56:27 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:56:56 error: uncaughtException: Cannot read property 'constructor' of undefined
+TypeError: Cannot read property 'constructor' of undefined
+    at MethodDecorator.decorateMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\methods.ts:205:97)
+    at GET (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\methods.ts:33:41)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:12:7)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 04:57:09 error: uncaughtException: Get is not defined
+ReferenceError: Get is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:12:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 04:57:18 error: uncaughtException: decorator is not a function
+TypeError: decorator is not a function
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:12:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 04:57:28 error: uncaughtException: decorator is not a function
+TypeError: decorator is not a function
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:12:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 04:57:35 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 04:57:49 error: uncaughtException: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@decorators/di'
+Require stack:
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\express.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\src\index.js
+- D:\__Work\__Others\Acronym\node_modules\@decorators\express\lib\index.js
+- D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts
+- D:\__Work\__Others\Acronym\src\routes\acronym.route.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\node_modules\@decorators\express\src\express.ts:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .js] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1608:43)
+2022-09-13 05:06:11 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:16:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 05:07:47 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:16:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 05:12:15 error: uncaughtException: GET is not defined
+ReferenceError: GET is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:15:4)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:12:53 error: uncaughtException: Get is not defined
+ReferenceError: Get is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:13:01 error: uncaughtException: Get is not defined
+ReferenceError: Get is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:13:10 error: uncaughtException: Title is not defined
+ReferenceError: Title is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:8:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:13:17 error: uncaughtException: Example is not defined
+ReferenceError: Example is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:15)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:13:30 error: uncaughtException: Example is not defined
+ReferenceError: Example is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:15)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:13:37 error: uncaughtException: any is not defined
+ReferenceError: any is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:17:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:13:53 error: uncaughtException: any is not defined
+ReferenceError: any is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:17:17)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 05:14:08 error: uncaughtException: Summary cannot be used as property decorator on AcronymController.readAcronym
+Error: Summary cannot be used as property decorator on AcronymController.readAcronym
+    at D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\operations\summary.ts:26:13
+    at D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\common\jsonEntityFn.ts:27:25
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 05:14:21 error: uncaughtException: Summary cannot be used as property decorator on AcronymController.readAcronym
+Error: Summary cannot be used as property decorator on AcronymController.readAcronym
+    at D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\operations\summary.ts:26:13
+    at D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\common\jsonEntityFn.ts:27:25
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 05:14:29 error: uncaughtException: Summary cannot be used as property decorator on AcronymController.readAcronym
+Error: Summary cannot be used as property decorator on AcronymController.readAcronym
+    at D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\operations\summary.ts:26:13
+    at D:\__Work\__Others\Acronym\node_modules\@tsed\schema\src\decorators\common\jsonEntityFn.ts:27:25
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:14:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 05:15:18 error: uncaughtException: Controller is not defined
+ReferenceError: Controller is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:7:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 07:12:42 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:13:18 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:20:32 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:22:10 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:36:51 error: uncaughtException: (0 , typescript_rest_1.ResponseProduces) is not a function
+TypeError: (0 , typescript_rest_1.ResponseProduces) is not a function
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 07:36:56 error: uncaughtException: (0 , typescript_rest_1.ResponseProduces) is not a function
+TypeError: (0 , typescript_rest_1.ResponseProduces) is not a function
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:15:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 07:38:09 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:38:19 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:39:17 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:39:24 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:40:20 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 07:40:40 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 07:40:41 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 07:40:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search');
+[7m  [0m [91m                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m25[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m25[0m     @QueryParam('search');
+[7m  [0m [91m                         [0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 07:40:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m26[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m26[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/routes/acronym.route.ts[0m:[93m26[0m:[93m26[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m26[0m     @QueryParam('search')
+[7m  [0m [91m                         [0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-13 07:41:10 error: uncaughtException: Invalid @Path Decorator declaration.
+Error: Invalid @Path Decorator declaration.
+    at ServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:57:13 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:57:15 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:57:25 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:57:32 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:57:44 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:57:57 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:58:26 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 07:58:38 error: uncaughtException: Invalid @Accept Decorator declaration.
+Error: Invalid @Accept Decorator declaration.
+    at AcceptServiceDecorator.decorateTypeOrMethod (D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:301:19)
+    at D:\__Work\__Others\Acronym\node_modules\typescript-rest\src\decorators\services.ts:290:18
+    at DecorateProperty (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:553:33)
+    at Object.decorate (D:\__Work\__Others\Acronym\node_modules\reflect-metadata\Reflect.js:123:24)
+    at Object.__decorate (D:\__Work\__Others\Acronym\node_modules\tslib\tslib.js:98:96)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:3)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-13 08:08:40 error: uncaughtException: Tags is not defined
+ReferenceError: Tags is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:4)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 08:08:47 error: uncaughtException: (0 , typescript_rest_1.Tags) is not a function
+TypeError: (0 , typescript_rest_1.Tags) is not a function
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:12:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 08:08:49 error: uncaughtException: (0 , typescript_rest_1.Tags) is not a function
+TypeError: (0 , typescript_rest_1.Tags) is not a function
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:12:8)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 08:08:57 error: uncaughtException: Tags is not defined
+ReferenceError: Tags is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:11:4)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:2:1)
+2022-09-13 22:35:40 error: uncaughtException: Cannot find module '@databases'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@databases'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:15:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 22:39:01 error: uncaughtException: Cannot find module '@databases'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+Error: Cannot find module '@databases'
+Require stack:
+- D:\__Work\__Others\Acronym\src\app.ts
+- D:\__Work\__Others\Acronym\src\server.ts
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (D:\__Work\__Others\Acronym\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (D:\__Work\__Others\Acronym\node_modules\tsconfig-paths\src\register.ts:115:36)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:16:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+2022-09-13 23:11:09 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:12:25 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:12:30 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:12:33 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:12:35 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:20:26 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:20:45 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:21:30 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:22:56 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:23:08 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:23:20 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:23:48 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:40:24 error: uncaughtException: acronym_model_1.default.readFile is not a function
+TypeError: acronym_model_1.default.readFile is not a function
+    at new AcronymService (D:\__Work\__Others\Acronym\src\services\acronym.service.ts:5:34)
+    at new AcronymController (D:\__Work\__Others\Acronym\src\controllers\acronym.controller.ts:9:27)
+    at new AcronymRoute (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:13:30)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:7:22)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+2022-09-13 23:41:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m63[0m:[93m1[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m63[0m export default AcronymService;
+[7m  [0m [91m~~~~~~[0m
+[96msrc/services/acronym.service.ts[0m:[93m63[0m:[93m8[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m63[0m export default AcronymService;
+[7m  [0m [91m       ~~~~~~~[0m
+[96msrc/services/acronym.service.ts[0m:[93m64[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m64[0m 
+[7m  [0m [91m[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/acronym.service.ts[0m:[93m63[0m:[93m1[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m63[0m export default AcronymService;
+[7m  [0m [91m~~~~~~[0m
+[96msrc/services/acronym.service.ts[0m:[93m63[0m:[93m8[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.
+
+[7m63[0m export default AcronymService;
+[7m  [0m [91m       ~~~~~~~[0m
+[96msrc/services/acronym.service.ts[0m:[93m64[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m64[0m 
+[7m  [0m [91m[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)

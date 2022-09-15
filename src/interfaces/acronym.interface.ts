@@ -1,4 +1,5 @@
 export interface Acronym {
+  _id: string;
   acronym: string;
   description: string;
 }

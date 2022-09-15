@@ -121,10 +121,14 @@ definitions:
     type: object
     required:
         - newAcronym
+        - newDescription
     properties:
       newAcronym:
         type: string
         description: acronym Name
+      newDescription:
+        type: string
+        description: acronym description
 schemes:
  - http
  - https

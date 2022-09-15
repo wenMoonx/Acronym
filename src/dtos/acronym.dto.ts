@@ -11,6 +11,8 @@ export class CreateAcronymDto {
 export class updateAcronymDto {
   @IsString()
   public newAcronym: string;
+  @IsString()
+  public newDescription: string;
 }
 
 export class deleteAcronymDto {

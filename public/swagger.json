@@ -2,9 +2,9 @@
 	"basePath": "/",
 	"definitions": {},
 	"info": {
-		"description": "121212",
+		"description": "TypeScript + Express API Server",
 		"title": "API - Documentation",
-		"version": "11"
+		"version": "0.0.0"
 	},
 	"paths": {},
 	"swagger": "2.0",
@@ -14,5 +14,6 @@
 	],
 	"produces": [
 		"application/json"
-	]
+	],
+	"host": "3000"
 }
