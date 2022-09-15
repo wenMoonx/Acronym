@@ -15,8 +15,7 @@ function _interopRequireDefault(obj) {
     };
 }
 const resolvers = {
-    readAcronym: async (from, limit, search)=>{
-        console.log(limit);
+    readAcronym: async ({ from , limit , search  })=>{
         const findAcronyms = await _acronymModel.default.find({
             description: {
                 $regex: search
@@ -27,7 +26,7 @@ const resolvers = {
             acronyms: findAcronyms
         };
     },
-    createAcronym: async (acronym, description)=>{
+    createAcronym: async ({ acronym , description  })=>{
         if ((0, _util.isEmpty)(acronym) || (0, _util.isEmpty)(description)) throw new _httpException.HttpException(400, 'AcronymData is empty');
         const findAcronym = await _acronymModel.default.findOne({
             acronym: acronym
@@ -39,7 +38,7 @@ const resolvers = {
         });
         return true;
     },
-    updateAcronym: async (nowAcronym, newAcronym, newDescription)=>{
+    updateAcronym: async ({ nowAcronym , newAcronym , newDescription  })=>{
         if ((0, _util.isEmpty)(newAcronym) || (0, _util.isEmpty)(newDescription)) throw new _httpException.HttpException(400, 'acronymData is empty');
         const findNowAcronym = await _acronymModel.default.findOne({
             acronym: nowAcronym
@@ -57,14 +56,15 @@ const resolvers = {
         });
         return true;
     },
-    deleteAcronym: async (deleteAcronym)=>{
+    deleteAcronym: async ({ deleteAcronym  })=>{
         const findAcronym = await _acronymModel.default.findOne({
             acronym: deleteAcronym
         });
         if ((0, _util.isEmpty)(findAcronym)) throw new _httpException.HttpException(409, "Acronym doesn't exist");
-        return await _acronymModel.default.deleteOne({
+        await _acronymModel.default.deleteOne({
             acronym: deleteAcronym
         });
+        return true;
     }
 };
 const _default = resolvers;

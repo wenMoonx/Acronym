@@ -580,3 +580,127 @@
 2022-09-15 09:48:54 info: 🚀 App listening on the port 3000
 2022-09-15 09:48:54 info: =================================
 2022-09-15 09:48:56 info: MongoDB Connected.
+2022-09-15 09:49:19 info: =================================
+2022-09-15 09:49:19 info: ======= ENV: production =======
+2022-09-15 09:49:19 info: 🚀 App listening on the port 3000
+2022-09-15 09:49:19 info: =================================
+2022-09-15 09:49:19 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:19 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:19 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:19 +0000] "POST /graphql? HTTP/1.1" 200 20544 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:19 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:19 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:21 info: MongoDB Connected.
+2022-09-15 09:49:21 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:21 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:31 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:31 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:31 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:31 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:32 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:32 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:32 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:32 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:32 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:32 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:49:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:49:39 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:50:52 info: =================================
+2022-09-15 09:50:52 info: ======= ENV: production =======
+2022-09-15 09:50:52 info: 🚀 App listening on the port 3000
+2022-09-15 09:50:52 info: =================================
+2022-09-15 09:50:56 info: =================================
+2022-09-15 09:50:56 info: ======= ENV: production =======
+2022-09-15 09:50:56 info: 🚀 App listening on the port 3000
+2022-09-15 09:50:56 info: =================================
+2022-09-15 09:51:03 info: =================================
+2022-09-15 09:51:03 info: ======= ENV: production =======
+2022-09-15 09:51:03 info: 🚀 App listening on the port 3000
+2022-09-15 09:51:03 info: =================================
+2022-09-15 09:51:05 info: MongoDB Connected.
+2022-09-15 09:51:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:51:08 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:51:31 info: =================================
+2022-09-15 09:51:31 info: ======= ENV: production =======
+2022-09-15 09:51:31 info: 🚀 App listening on the port 3000
+2022-09-15 09:51:31 info: =================================
+2022-09-15 09:51:33 info: MongoDB Connected.
+2022-09-15 09:51:38 info: =================================
+2022-09-15 09:51:38 info: ======= ENV: production =======
+2022-09-15 09:51:38 info: 🚀 App listening on the port 3000
+2022-09-15 09:51:38 info: =================================
+2022-09-15 09:52:06 info: =================================
+2022-09-15 09:52:06 info: ======= ENV: production =======
+2022-09-15 09:52:06 info: 🚀 App listening on the port 3000
+2022-09-15 09:52:06 info: =================================
+2022-09-15 09:52:09 info: MongoDB Connected.
+2022-09-15 09:52:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:10 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:22 +0000] "POST /graphql? HTTP/1.1" 200 361 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:27 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:33 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:33 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:34 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:34 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:35 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:35 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:35 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:41 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:41 +0000] "POST /graphql? HTTP/1.1" 200 361 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:52:50 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:52:50 +0000] "POST /graphql? HTTP/1.1" 200 1120 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:53:13 info: =================================
+2022-09-15 09:53:13 info: ======= ENV: production =======
+2022-09-15 09:53:13 info: 🚀 App listening on the port 3000
+2022-09-15 09:53:13 info: =================================
+2022-09-15 09:53:16 info: MongoDB Connected.
+2022-09-15 09:53:35 info: =================================
+2022-09-15 09:53:35 info: ======= ENV: production =======
+2022-09-15 09:53:35 info: 🚀 App listening on the port 3000
+2022-09-15 09:53:35 info: =================================
+2022-09-15 09:53:43 info: =================================
+2022-09-15 09:53:43 info: ======= ENV: production =======
+2022-09-15 09:53:43 info: 🚀 App listening on the port 3000
+2022-09-15 09:53:43 info: =================================
+2022-09-15 09:53:45 info: MongoDB Connected.
+2022-09-15 09:54:34 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:54:34 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:54:34 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:54:34 +0000] "POST /graphql? HTTP/1.1" 200 20544 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:54:54 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:54:54 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:54:54 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:54:54 +0000] "POST /graphql? HTTP/1.1" 200 20544 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:55:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:55:35 +0000] "GET /graphql? HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:55:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:55:35 +0000] "POST /graphql? HTTP/1.1" 200 20544 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:56:51 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:56:51 +0000] "POST /graphql? HTTP/1.1" 400 106 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:57:14 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:57:14 +0000] "POST /graphql? HTTP/1.1" 200 31 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:57:57 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:57:57 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:58:12 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:58:12 +0000] "POST /graphql? HTTP/1.1" 400 136 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:58:17 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:58:17 +0000] "POST /graphql? HTTP/1.1" 200 1987 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:58:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:58:36 +0000] "POST /graphql? HTTP/1.1" 200 98 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:58:56 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:58:56 +0000] "POST /graphql? HTTP/1.1" 200 203 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:59:29 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:59:29 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:59:41 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:59:41 +0000] "POST /graphql? HTTP/1.1" 200 1942 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:59:53 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:59:53 +0000] "POST /graphql? HTTP/1.1" 200 96 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 10:00:28 info: ::ffff:127.0.0.1 - - [15/Sep/2022:17:00:28 +0000] "POST /graphql? HTTP/1.1" 200 203 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 10:00:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:17:00:35 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 10:00:47 info: =================================
+2022-09-15 10:00:47 info: ======= ENV: production =======
+2022-09-15 10:00:47 info: 🚀 App listening on the port 3000
+2022-09-15 10:00:47 info: =================================
+2022-09-15 10:00:49 info: MongoDB Connected.
+2022-09-15 10:01:30 info: ::ffff:127.0.0.1 - - [15/Sep/2022:17:01:30 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 10:01:34 info: ::ffff:127.0.0.1 - - [15/Sep/2022:17:01:34 +0000] "POST /graphql? HTTP/1.1" 200 1899 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:00:22 info: MongoDB Connected.
+2022-09-15 12:00:44 info: =================================
+2022-09-15 12:00:44 info: ======= ENV: production =======
+2022-09-15 12:00:44 info: 🚀 App listening on the port 3000
+2022-09-15 12:00:44 info: =================================
+2022-09-15 12:00:47 info: MongoDB Connected.
+2022-09-15 12:00:47 info: MongoDB Connected.
+2022-09-15 12:01:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:02 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:09 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:40 info: =================================
+2022-09-15 12:01:40 info: ======= ENV: production =======
+2022-09-15 12:01:40 info: 🚀 App listening on the port 3000
+2022-09-15 12:01:40 info: =================================
+2022-09-15 12:01:43 info: MongoDB Connected.
+2022-09-15 12:01:43 info: MongoDB Connected.
+2022-09-15 12:01:55 info: =================================
+2022-09-15 12:01:55 info: ======= ENV: production =======
+2022-09-15 12:01:55 info: 🚀 App listening on the port 3000
+2022-09-15 12:01:55 info: =================================
+2022-09-15 12:02:00 info: =================================
+2022-09-15 12:02:00 info: ======= ENV: production =======
+2022-09-15 12:02:00 info: 🚀 App listening on the port 3000
+2022-09-15 12:02:00 info: =================================
+2022-09-15 12:02:02 info: MongoDB Connected.

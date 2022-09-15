@@ -675,3 +675,37 @@
 2022-09-15 10:00:49 info: MongoDB Connected.
 2022-09-15 10:01:30 info: ::ffff:127.0.0.1 - - [15/Sep/2022:17:01:30 +0000] "POST /graphql? HTTP/1.1" 200 54 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
 2022-09-15 10:01:34 info: ::ffff:127.0.0.1 - - [15/Sep/2022:17:01:34 +0000] "POST /graphql? HTTP/1.1" 200 1899 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:00:22 info: MongoDB Connected.
+2022-09-15 12:00:44 info: =================================
+2022-09-15 12:00:44 info: ======= ENV: production =======
+2022-09-15 12:00:44 info: 🚀 App listening on the port 3000
+2022-09-15 12:00:44 info: =================================
+2022-09-15 12:00:47 info: MongoDB Connected.
+2022-09-15 12:00:47 info: MongoDB Connected.
+2022-09-15 12:01:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:02 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:08 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:19:01:09 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 12:01:40 info: =================================
+2022-09-15 12:01:40 info: ======= ENV: production =======
+2022-09-15 12:01:40 info: 🚀 App listening on the port 3000
+2022-09-15 12:01:40 info: =================================
+2022-09-15 12:01:43 info: MongoDB Connected.
+2022-09-15 12:01:43 info: MongoDB Connected.
+2022-09-15 12:01:55 info: =================================
+2022-09-15 12:01:55 info: ======= ENV: production =======
+2022-09-15 12:01:55 info: 🚀 App listening on the port 3000
+2022-09-15 12:01:55 info: =================================
+2022-09-15 12:02:00 info: =================================
+2022-09-15 12:02:00 info: ======= ENV: production =======
+2022-09-15 12:02:00 info: 🚀 App listening on the port 3000
+2022-09-15 12:02:00 info: =================================
+2022-09-15 12:02:02 info: MongoDB Connected.
+2022-09-15 12:03:09 info: =================================
+2022-09-15 12:03:09 info: ======= ENV: production =======
+2022-09-15 12:03:09 info: 🚀 App listening on the port 3000
+2022-09-15 12:03:09 info: =================================
+2022-09-15 12:03:12 info: MongoDB Connected.

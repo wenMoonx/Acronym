@@ -412,3 +412,189 @@ TSError: ⨯ Unable to compile TypeScript:
     at Module.load (internal/modules/cjs/loader.js:928:32)
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
     at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 09:50:32 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: string }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:50:35 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: string }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:50:43 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: string }, context) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:41 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:43 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: number }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:53 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: any, limit: number, search: number }) => {
+                                                            ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:56 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: any, limit: any, search: any }) => {
+                                            ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:53:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m20[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m   createAcronym: async ({}acronym, description) => {
+[7m  [0m [91m                          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m20[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m   createAcronym: async ({}acronym, description) => {
+[7m  [0m [91m                          ~~~~~~~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 09:53:24 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:32
+    updateAcronym: async ({ nowAcronym: string, newAcronym: string, newDescription: string }) => {
+                                                            ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 12:00:19 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:73:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-15 12:00:44 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:73:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+2022-09-15 12:01:41 error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (D:\__Work\__Others\Acronym\node_modules\express\lib\application.js:635:24)
+    at App.listen (D:\__Work\__Others\Acronym\src\app.ts:73:14)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:9:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
