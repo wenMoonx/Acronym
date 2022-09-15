@@ -15,11 +15,14 @@ import { SwaggerConfig, generateDocumentation } from 'typescript-swagger';
 import { dbConnection } from '@databases';
 import { connect, set } from 'mongoose';
 import path from 'path';
+import { graphqlHTTP } from 'express-graphql';
+import schemas from '@graphql/schemas';
+import resolvers from '@graphql/resolvers';
 
 const packageJson = require('../package.json');
 const tsConfig = require('../tsconfig.json');
 
-export const swaggerConfig: SwaggerConfig = {
+const swaggerConfig: SwaggerConfig = {
   yaml: true,
   name: 'API - Documentation',
   description: packageJson.description,
@@ -50,6 +53,19 @@ class App {
     this.connectToDatabase();
     this.initializeRoutes(routes);
     this.initializeSwagger();
+
+    this.app.use(
+      '/graphql',
+      graphqlHTTP((req, res, graphqlParams) => ({
+        schema: schemas,
+        rootValue: resolvers,
+        graphiql: true,
+        context: {
+          req,
+          res,
+        },
+      })),
+    );
     this.initializeErrorHandling();
   }
 
@@ -79,10 +95,10 @@ class App {
   }
   private initializeMiddlewares() {
     this.app.use(morgan(LOG_FORMAT, { stream }));
-    this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
-    this.app.use(hpp());
-    this.app.use(helmet());
-    this.app.use(compression());
+    // this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
+    // this.app.use(hpp());
+    // // this.app.use(helmet());
+    // this.app.use(compression());
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(cookieParser());

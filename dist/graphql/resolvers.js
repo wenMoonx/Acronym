@@ -14,9 +14,10 @@ function _interopRequireDefault(obj) {
         default: obj
     };
 }
-let AcronymService = class AcronymService {
-    async readAcronym(from, limit, search) {
-        const findAcronyms = await this.acronyms.find({
+const resolvers = {
+    readAcronym: async (from, limit, search)=>{
+        console.log(limit);
+        const findAcronyms = await _acronymModel.default.find({
             description: {
                 $regex: search
             }
@@ -25,50 +26,47 @@ let AcronymService = class AcronymService {
             isOnly: true,
             acronyms: findAcronyms
         };
-    }
-    async createAcronym(acronym, description) {
+    },
+    createAcronym: async (acronym, description)=>{
         if ((0, _util.isEmpty)(acronym) || (0, _util.isEmpty)(description)) throw new _httpException.HttpException(400, 'AcronymData is empty');
-        const findAcronym = await this.acronyms.findOne({
+        const findAcronym = await _acronymModel.default.findOne({
             acronym: acronym
         });
         if (!(0, _util.isEmpty)(findAcronym)) throw new _httpException.HttpException(409, `This WTF:${acronym} already exists`);
-        await this.acronyms.create({
+        await _acronymModel.default.create({
             acronym: acronym,
             description: description
         });
         return true;
-    }
-    async updateAcronym(nowAcronym, newAcronym, newDescription) {
+    },
+    updateAcronym: async (nowAcronym, newAcronym, newDescription)=>{
         if ((0, _util.isEmpty)(newAcronym) || (0, _util.isEmpty)(newDescription)) throw new _httpException.HttpException(400, 'acronymData is empty');
-        const findNowAcronym = await this.acronyms.findOne({
+        const findNowAcronym = await _acronymModel.default.findOne({
             acronym: nowAcronym
         });
         if ((0, _util.isEmpty)(findNowAcronym)) throw new _httpException.HttpException(409, 'Acronym does not exist');
-        const findAcronym = await this.acronyms.findOne({
+        const findAcronym = await _acronymModel.default.findOne({
             acronym: newAcronym
         });
         if (findAcronym && findAcronym.acronym != nowAcronym) throw new _httpException.HttpException(409, `This WTF:${newAcronym} already exists`);
-        await this.acronyms.updateOne({
+        await _acronymModel.default.updateOne({
             acronym: nowAcronym
         }, {
             acronym: newAcronym,
             description: newDescription
         });
         return true;
-    }
-    async deleteAcronym(deleteAcronym) {
-        const findAcronym = await this.acronyms.findOne({
+    },
+    deleteAcronym: async (deleteAcronym)=>{
+        const findAcronym = await _acronymModel.default.findOne({
             acronym: deleteAcronym
         });
         if ((0, _util.isEmpty)(findAcronym)) throw new _httpException.HttpException(409, "Acronym doesn't exist");
-        return await this.acronyms.deleteOne({
+        return await _acronymModel.default.deleteOne({
             acronym: deleteAcronym
         });
     }
-    constructor(){
-        this.acronyms = _acronymModel.default;
-    }
 };
-const _default = AcronymService;
+const _default = resolvers;
 
-//# sourceMappingURL=acronym.service.js.map
+//# sourceMappingURL=resolvers.js.map

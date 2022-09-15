@@ -1,0 +1,582 @@
+2022-09-15 04:25:58 info: =================================
+2022-09-15 04:25:58 info: ======= ENV: production =======
+2022-09-15 04:25:58 info: 🚀 App listening on the port 3000
+2022-09-15 04:25:58 info: =================================
+2022-09-15 04:26:07 info: =================================
+2022-09-15 04:26:07 info: ======= ENV: production =======
+2022-09-15 04:26:07 info: 🚀 App listening on the port 3000
+2022-09-15 04:26:07 info: =================================
+2022-09-15 04:26:34 info: =================================
+2022-09-15 04:26:34 info: ======= ENV: production =======
+2022-09-15 04:26:34 info: 🚀 App listening on the port 3000
+2022-09-15 04:26:34 info: =================================
+2022-09-15 04:27:21 info: =================================
+2022-09-15 04:27:21 info: ======= ENV: production =======
+2022-09-15 04:27:21 info: 🚀 App listening on the port 3000
+2022-09-15 04:27:21 info: =================================
+2022-09-15 04:27:29 info: =================================
+2022-09-15 04:27:29 info: ======= ENV: production =======
+2022-09-15 04:27:29 info: 🚀 App listening on the port 3000
+2022-09-15 04:27:29 info: =================================
+2022-09-15 04:28:09 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 04:28:54 info: =================================
+2022-09-15 04:28:54 info: ======= ENV: production =======
+2022-09-15 04:28:54 info: 🚀 App listening on the port 3000
+2022-09-15 04:28:54 info: =================================
+2022-09-15 04:29:24 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 04:29:55 info: =================================
+2022-09-15 04:29:55 info: ======= ENV: production =======
+2022-09-15 04:29:55 info: 🚀 App listening on the port 3000
+2022-09-15 04:29:55 info: =================================
+2022-09-15 04:30:25 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 04:37:57 info: =================================
+2022-09-15 04:37:57 info: ======= ENV: production =======
+2022-09-15 04:37:57 info: 🚀 App listening on the port 3000
+2022-09-15 04:37:57 info: =================================
+2022-09-15 04:38:06 info: =================================
+2022-09-15 04:38:06 info: ======= ENV: production =======
+2022-09-15 04:38:06 info: 🚀 App listening on the port 3000
+2022-09-15 04:38:06 info: =================================
+2022-09-15 04:38:18 info: =================================
+2022-09-15 04:38:18 info: ======= ENV: production =======
+2022-09-15 04:38:18 info: 🚀 App listening on the port 3000
+2022-09-15 04:38:18 info: =================================
+2022-09-15 04:38:25 info: =================================
+2022-09-15 04:38:25 info: ======= ENV: production =======
+2022-09-15 04:38:25 info: 🚀 App listening on the port 3000
+2022-09-15 04:38:25 info: =================================
+2022-09-15 04:38:41 info: =================================
+2022-09-15 04:38:41 info: ======= ENV: production =======
+2022-09-15 04:38:41 info: 🚀 App listening on the port 3000
+2022-09-15 04:38:41 info: =================================
+2022-09-15 04:39:12 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 04:40:06 info: =================================
+2022-09-15 04:40:06 info: ======= ENV: production =======
+2022-09-15 04:40:06 info: 🚀 App listening on the port 3000
+2022-09-15 04:40:06 info: =================================
+2022-09-15 04:40:11 info: =================================
+2022-09-15 04:40:11 info: ======= ENV: production =======
+2022-09-15 04:40:11 info: 🚀 App listening on the port 3000
+2022-09-15 04:40:11 info: =================================
+2022-09-15 04:40:42 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 05:15:28 info: =================================
+2022-09-15 05:15:28 info: ======= ENV: production =======
+2022-09-15 05:15:28 info: 🚀 App listening on the port 3000
+2022-09-15 05:15:28 info: =================================
+2022-09-15 05:15:35 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:35 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs HTTP/1.1" 301 175 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /swagger.json HTTP/1.1" 404 151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:12:15:40 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 05:15:59 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:06:25 info: =================================
+2022-09-15 06:06:25 info: ======= ENV: production =======
+2022-09-15 06:06:25 info: 🚀 App listening on the port 3000
+2022-09-15 06:06:25 info: =================================
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /swagger.json HTTP/1.1" 404 151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:06:40 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:06:55 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:13:23 info: =================================
+2022-09-15 06:13:23 info: ======= ENV: production =======
+2022-09-15 06:13:23 info: 🚀 App listening on the port 3000
+2022-09-15 06:13:23 info: =================================
+2022-09-15 06:14:00 info: =================================
+2022-09-15 06:14:00 info: ======= ENV: production =======
+2022-09-15 06:14:00 info: 🚀 App listening on the port 3000
+2022-09-15 06:14:00 info: =================================
+2022-09-15 06:14:30 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:14:50 info: =================================
+2022-09-15 06:14:50 info: ======= ENV: production =======
+2022-09-15 06:14:50 info: 🚀 App listening on the port 3000
+2022-09-15 06:14:50 info: =================================
+2022-09-15 06:15:07 info: =================================
+2022-09-15 06:15:07 info: ======= ENV: production =======
+2022-09-15 06:15:07 info: 🚀 App listening on the port 3000
+2022-09-15 06:15:07 info: =================================
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /swagger.json HTTP/1.1" 404 151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:13 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:13 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:32 info: =================================
+2022-09-15 06:15:32 info: ======= ENV: production =======
+2022-09-15 06:15:32 info: 🚀 App listening on the port 3000
+2022-09-15 06:15:32 info: =================================
+2022-09-15 06:15:34 info: =================================
+2022-09-15 06:15:34 info: ======= ENV: production =======
+2022-09-15 06:15:34 info: 🚀 App listening on the port 3000
+2022-09-15 06:15:34 info: =================================
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/public/swagger.json HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:36 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:36 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/public/swagger.json HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:15:39 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:15:39 +0000] "GET /docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:16:05 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:17:35 info: =================================
+2022-09-15 06:17:35 info: ======= ENV: production =======
+2022-09-15 06:17:35 info: 🚀 App listening on the port 3000
+2022-09-15 06:17:35 info: =================================
+2022-09-15 06:17:40 info: =================================
+2022-09-15 06:17:40 info: ======= ENV: production =======
+2022-09-15 06:17:40 info: 🚀 App listening on the port 3000
+2022-09-15 06:17:40 info: =================================
+2022-09-15 06:17:50 info: =================================
+2022-09-15 06:17:50 info: ======= ENV: production =======
+2022-09-15 06:17:50 info: 🚀 App listening on the port 3000
+2022-09-15 06:17:50 info: =================================
+2022-09-15 06:17:53 info: =================================
+2022-09-15 06:17:53 info: ======= ENV: production =======
+2022-09-15 06:17:53 info: 🚀 App listening on the port 3000
+2022-09-15 06:17:53 info: =================================
+2022-09-15 06:18:00 info: =================================
+2022-09-15 06:18:00 info: ======= ENV: production =======
+2022-09-15 06:18:00 info: 🚀 App listening on the port 3000
+2022-09-15 06:18:00 info: =================================
+2022-09-15 06:19:50 info: =================================
+2022-09-15 06:19:50 info: ======= ENV: production =======
+2022-09-15 06:19:50 info: 🚀 App listening on the port 3000
+2022-09-15 06:19:50 info: =================================
+2022-09-15 06:20:21 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:21:49 info: =================================
+2022-09-15 06:21:49 info: ======= ENV: production =======
+2022-09-15 06:21:49 info: 🚀 App listening on the port 3000
+2022-09-15 06:21:49 info: =================================
+2022-09-15 06:27:27 info: =================================
+2022-09-15 06:27:27 info: ======= ENV: production =======
+2022-09-15 06:27:27 info: 🚀 App listening on the port 3000
+2022-09-15 06:27:27 info: =================================
+2022-09-15 06:27:42 info: =================================
+2022-09-15 06:27:42 info: ======= ENV: production =======
+2022-09-15 06:27:42 info: 🚀 App listening on the port 3000
+2022-09-15 06:27:42 info: =================================
+2022-09-15 06:28:13 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:28:35 info: =================================
+2022-09-15 06:28:35 info: ======= ENV: production =======
+2022-09-15 06:28:35 info: 🚀 App listening on the port 3000
+2022-09-15 06:28:35 info: =================================
+2022-09-15 06:29:05 info: =================================
+2022-09-15 06:29:05 info: ======= ENV: production =======
+2022-09-15 06:29:05 info: 🚀 App listening on the port 3000
+2022-09-15 06:29:05 info: =================================
+2022-09-15 06:29:36 info: MongoDB ConnectError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-15 06:32:20 info: =================================
+2022-09-15 06:32:20 info: ======= ENV: production =======
+2022-09-15 06:32:20 info: 🚀 App listening on the port 3000
+2022-09-15 06:32:20 info: =================================
+2022-09-15 06:32:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:23 +0000] "GET /docs/ HTTP/1.1" 404 144 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:32:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:13:32:27 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 06:34:50 info: MongoDB ConnectError: querySrv ETIMEOUT _mongodb._tcp.atlascluster.2k5kzlt.mongodb.net
+2022-09-15 08:14:39 info: =================================
+2022-09-15 08:14:39 info: ======= ENV: production =======
+2022-09-15 08:14:39 info: 🚀 App listening on the port 3000
+2022-09-15 08:14:39 info: =================================
+2022-09-15 08:14:42 info: MongoDB Connected.
+2022-09-15 08:14:51 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:14:51 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:14:51 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:14:51 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:02 info: =================================
+2022-09-15 08:16:02 info: ======= ENV: production =======
+2022-09-15 08:16:02 info: 🚀 App listening on the port 3000
+2022-09-15 08:16:02 info: =================================
+2022-09-15 08:16:06 info: MongoDB Connected.
+2022-09-15 08:16:06 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:06 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:07 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:07 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:07 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:07 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:07 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:07 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:07 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:07 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:07 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:07 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:08 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:16:08 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:16:17 info: =================================
+2022-09-15 08:16:17 info: ======= ENV: production =======
+2022-09-15 08:16:17 info: 🚀 App listening on the port 3000
+2022-09-15 08:16:17 info: =================================
+2022-09-15 08:16:20 info: MongoDB Connected.
+2022-09-15 08:16:30 info: =================================
+2022-09-15 08:16:30 info: ======= ENV: production =======
+2022-09-15 08:16:30 info: 🚀 App listening on the port 3000
+2022-09-15 08:16:30 info: =================================
+2022-09-15 08:16:33 info: =================================
+2022-09-15 08:16:33 info: ======= ENV: production =======
+2022-09-15 08:16:33 info: 🚀 App listening on the port 3000
+2022-09-15 08:16:33 info: =================================
+2022-09-15 08:16:36 info: MongoDB Connected.
+2022-09-15 08:18:16 info: =================================
+2022-09-15 08:18:16 info: ======= ENV: production =======
+2022-09-15 08:18:16 info: 🚀 App listening on the port 3000
+2022-09-15 08:18:16 info: =================================
+2022-09-15 08:18:19 info: MongoDB Connected.
+2022-09-15 08:19:46 info: =================================
+2022-09-15 08:19:46 info: ======= ENV: production =======
+2022-09-15 08:19:46 info: 🚀 App listening on the port 3000
+2022-09-15 08:19:46 info: =================================
+2022-09-15 08:19:52 info: =================================
+2022-09-15 08:19:52 info: ======= ENV: production =======
+2022-09-15 08:19:52 info: 🚀 App listening on the port 3000
+2022-09-15 08:19:52 info: =================================
+2022-09-15 08:19:55 info: MongoDB Connected.
+2022-09-15 08:20:23 info: =================================
+2022-09-15 08:20:23 info: ======= ENV: production =======
+2022-09-15 08:20:23 info: 🚀 App listening on the port 3000
+2022-09-15 08:20:23 info: =================================
+2022-09-15 08:20:32 info: =================================
+2022-09-15 08:20:32 info: ======= ENV: production =======
+2022-09-15 08:20:32 info: 🚀 App listening on the port 3000
+2022-09-15 08:20:32 info: =================================
+2022-09-15 08:20:38 info: =================================
+2022-09-15 08:20:38 info: ======= ENV: production =======
+2022-09-15 08:20:38 info: 🚀 App listening on the port 3000
+2022-09-15 08:20:38 info: =================================
+2022-09-15 08:20:43 info: =================================
+2022-09-15 08:20:43 info: ======= ENV: production =======
+2022-09-15 08:20:43 info: 🚀 App listening on the port 3000
+2022-09-15 08:20:43 info: =================================
+2022-09-15 08:20:46 info: MongoDB Connected.
+2022-09-15 08:20:47 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:47 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:20:49 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:49 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:20:50 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:50 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:20:51 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:51 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:20:52 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:52 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:20:52 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:52 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:20:52 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:20:52 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:23:55 info: =================================
+2022-09-15 08:23:55 info: ======= ENV: production =======
+2022-09-15 08:23:55 info: 🚀 App listening on the port 3000
+2022-09-15 08:23:55 info: =================================
+2022-09-15 08:23:59 info: MongoDB Connected.
+2022-09-15 08:24:11 info: =================================
+2022-09-15 08:24:11 info: ======= ENV: production =======
+2022-09-15 08:24:11 info: 🚀 App listening on the port 3000
+2022-09-15 08:24:11 info: =================================
+2022-09-15 08:25:05 info: =================================
+2022-09-15 08:25:05 info: ======= ENV: production =======
+2022-09-15 08:25:05 info: 🚀 App listening on the port 3000
+2022-09-15 08:25:05 info: =================================
+2022-09-15 08:25:10 info: =================================
+2022-09-15 08:25:10 info: ======= ENV: production =======
+2022-09-15 08:25:10 info: 🚀 App listening on the port 3000
+2022-09-15 08:25:10 info: =================================
+2022-09-15 08:25:13 info: MongoDB Connected.
+2022-09-15 08:25:34 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:25:34 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:25:37 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:25:37 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:25:38 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:25:38 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:25:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:25:40 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:27:26 info: =================================
+2022-09-15 08:27:26 info: ======= ENV: production =======
+2022-09-15 08:27:26 info: 🚀 App listening on the port 3000
+2022-09-15 08:27:26 info: =================================
+2022-09-15 08:27:30 info: =================================
+2022-09-15 08:27:30 info: ======= ENV: production =======
+2022-09-15 08:27:30 info: 🚀 App listening on the port 3000
+2022-09-15 08:27:30 info: =================================
+2022-09-15 08:27:35 info: =================================
+2022-09-15 08:27:35 info: ======= ENV: production =======
+2022-09-15 08:27:35 info: 🚀 App listening on the port 3000
+2022-09-15 08:27:35 info: =================================
+2022-09-15 08:27:38 info: MongoDB Connected.
+2022-09-15 08:28:02 info: =================================
+2022-09-15 08:28:02 info: ======= ENV: production =======
+2022-09-15 08:28:02 info: 🚀 App listening on the port 3000
+2022-09-15 08:28:02 info: =================================
+2022-09-15 08:28:05 info: =================================
+2022-09-15 08:28:05 info: ======= ENV: production =======
+2022-09-15 08:28:05 info: 🚀 App listening on the port 3000
+2022-09-15 08:28:05 info: =================================
+2022-09-15 08:28:05 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:05 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:08 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:08 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:08 info: MongoDB Connected.
+2022-09-15 08:28:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:08 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:08 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:08 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:09 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:09 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:09 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:09 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:09 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:10 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:10 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:10 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:28:10 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:28:49 info: =================================
+2022-09-15 08:28:49 info: ======= ENV: production =======
+2022-09-15 08:28:49 info: 🚀 App listening on the port 3000
+2022-09-15 08:28:49 info: =================================
+2022-09-15 08:28:52 info: MongoDB Connected.
+2022-09-15 08:28:59 info: =================================
+2022-09-15 08:28:59 info: ======= ENV: production =======
+2022-09-15 08:28:59 info: 🚀 App listening on the port 3000
+2022-09-15 08:28:59 info: =================================
+2022-09-15 08:29:04 info: =================================
+2022-09-15 08:29:04 info: ======= ENV: production =======
+2022-09-15 08:29:04 info: 🚀 App listening on the port 3000
+2022-09-15 08:29:04 info: =================================
+2022-09-15 08:29:06 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:06 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:07 info: MongoDB Connected.
+2022-09-15 08:29:11 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:11 +0000] "GET /gdsf HTTP/1.1" 404 143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:14 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:14 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:25 info: =================================
+2022-09-15 08:29:25 info: ======= ENV: production =======
+2022-09-15 08:29:25 info: 🚀 App listening on the port 3000
+2022-09-15 08:29:25 info: =================================
+2022-09-15 08:29:28 info: MongoDB Connected.
+2022-09-15 08:29:53 info: =================================
+2022-09-15 08:29:53 info: ======= ENV: production =======
+2022-09-15 08:29:53 info: 🚀 App listening on the port 3000
+2022-09-15 08:29:53 info: =================================
+2022-09-15 08:29:56 info: MongoDB Connected.
+2022-09-15 08:29:57 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:57 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:58 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:58 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:58 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:58 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:58 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:58 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:58 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:58 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:29:58 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:29:58 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:17 info: =================================
+2022-09-15 08:32:17 info: ======= ENV: production =======
+2022-09-15 08:32:17 info: 🚀 App listening on the port 3000
+2022-09-15 08:32:17 info: =================================
+2022-09-15 08:32:22 info: MongoDB Connected.
+2022-09-15 08:32:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:23 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:26 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:29 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:29 +0000] "GET /graphqlss HTTP/1.1" 404 148 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:45 info: =================================
+2022-09-15 08:32:45 info: ======= ENV: production =======
+2022-09-15 08:32:45 info: 🚀 App listening on the port 3000
+2022-09-15 08:32:45 info: =================================
+2022-09-15 08:32:48 info: MongoDB Connected.
+2022-09-15 08:32:53 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:53 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:53 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:53 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:53 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:53 +0000] "GET /unfetch.umd.js.map HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:32:53 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:32:53 +0000] "GET /graphiql.min.js.map HTTP/1.1" 404 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:09 info: =================================
+2022-09-15 08:33:09 info: ======= ENV: production =======
+2022-09-15 08:33:09 info: 🚀 App listening on the port 3000
+2022-09-15 08:33:09 info: =================================
+2022-09-15 08:33:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:10 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:13 info: MongoDB Connected.
+2022-09-15 08:33:19 info: =================================
+2022-09-15 08:33:19 info: ======= ENV: production =======
+2022-09-15 08:33:19 info: 🚀 App listening on the port 3000
+2022-09-15 08:33:19 info: =================================
+2022-09-15 08:33:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:22 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:23 +0000] "GET /unfetch.umd.js.map HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:23 +0000] "GET /graphiql.min.js.map HTTP/1.1" 404 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:23 +0000] "POST /graphql? HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:23 info: MongoDB Connected.
+2022-09-15 08:33:28 info: =================================
+2022-09-15 08:33:28 info: ======= ENV: production =======
+2022-09-15 08:33:28 info: 🚀 App listening on the port 3000
+2022-09-15 08:33:28 info: =================================
+2022-09-15 08:33:31 info: MongoDB Connected.
+2022-09-15 08:33:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:32 +0000] "GET /graphql HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:32 +0000] "GET /unfetch.umd.js.map HTTP/1.1" 404 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:32 +0000] "GET /graphiql.min.js.map HTTP/1.1" 404 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:32 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:32 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:33:32 +0000] "POST /graphql? HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:33:54 info: =================================
+2022-09-15 08:33:54 info: ======= ENV: production =======
+2022-09-15 08:33:54 info: 🚀 App listening on the port 3000
+2022-09-15 08:33:54 info: =================================
+2022-09-15 08:33:56 info: MongoDB Connected.
+2022-09-15 08:34:22 info: =================================
+2022-09-15 08:34:22 info: ======= ENV: production =======
+2022-09-15 08:34:22 info: 🚀 App listening on the port 3000
+2022-09-15 08:34:22 info: =================================
+2022-09-15 08:34:25 info: MongoDB Connected.
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:26 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:27 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:34:27 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:34:34 info: =================================
+2022-09-15 08:34:34 info: ======= ENV: production =======
+2022-09-15 08:34:34 info: 🚀 App listening on the port 3000
+2022-09-15 08:34:34 info: =================================
+2022-09-15 08:34:36 info: MongoDB Connected.
+2022-09-15 08:34:45 info: =================================
+2022-09-15 08:34:45 info: ======= ENV: production =======
+2022-09-15 08:34:45 info: 🚀 App listening on the port 3000
+2022-09-15 08:34:45 info: =================================
+2022-09-15 08:34:47 info: MongoDB Connected.
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 6612 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 311812 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1058187 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144726 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:35:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:35:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "http://localhost:3000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 08:37:17 info: ::ffff:127.0.0.1 - - [15/Sep/2022:15:37:17 +0000] "POST /graphql? HTTP/1.1" 400 110 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:24:07 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:24:07 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:24:14 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:24:14 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:01 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:01 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:01 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:01 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:02 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:02 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:02 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:02 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:02 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:02 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:03 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:03 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:22 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:22 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:22 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:22 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:23 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:23 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:23 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:23 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:23 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:56 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:56 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:56 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:56 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:57 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:57 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:25:58 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:25:58 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:09 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:09 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:09 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:09 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:10 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:10 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:10 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:14 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:14 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:15 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:15 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:15 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:15 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:15 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:15 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:15 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:15 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:15 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:15 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:16 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:16 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:16 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:16 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:16 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:16 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:16 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:16 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:54 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:54 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:26:54 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:26:54 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:31:29 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:31:29 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:31:47 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:31:47 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:31:52 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:31:52 +0000] "POST /graphql? HTTP/1.1" 200 3844 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:26 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:26 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:26 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:26 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:27 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:27 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:40 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:40 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:41 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:41 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:41 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:41 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:41 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:41 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:33:42 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:33:42 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:05 info: =================================
+2022-09-15 09:34:05 info: ======= ENV: production =======
+2022-09-15 09:34:05 info: 🚀 App listening on the port 3000
+2022-09-15 09:34:05 info: =================================
+2022-09-15 09:34:08 info: MongoDB Connected.
+2022-09-15 09:34:16 info: =================================
+2022-09-15 09:34:16 info: ======= ENV: production =======
+2022-09-15 09:34:16 info: 🚀 App listening on the port 3000
+2022-09-15 09:34:16 info: =================================
+2022-09-15 09:34:19 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:34:19 +0000] "GET /graphql?query=%7B%0A%20%20readAcronym(from%3A%2019%2C%20limit%3A%2010%2C%20search%3A%20%22I%22)%20%7B%0A%20%20%20%20acronyms%20%7B%0A%20%20%20%20%20%20acronym%0A%20%20%20%20%20%20description%0A%20%20%20%20%7D%0A%20%20%20%20isOnly%0A%20%20%7D%0A%7D%0A HTTP/1.1" 200 932215 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:19 info: MongoDB Connected.
+2022-09-15 09:34:19 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:34:19 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:25 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:34:25 +0000] "GET /graphql HTTP/1.1" 200 927959 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:25 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:34:25 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:29 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:34:29 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:42 info: =================================
+2022-09-15 09:34:42 info: ======= ENV: production =======
+2022-09-15 09:34:42 info: 🚀 App listening on the port 3000
+2022-09-15 09:34:42 info: =================================
+2022-09-15 09:34:45 info: MongoDB Connected.
+2022-09-15 09:34:49 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:34:49 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:34:56 info: =================================
+2022-09-15 09:34:56 info: ======= ENV: production =======
+2022-09-15 09:34:56 info: 🚀 App listening on the port 3000
+2022-09-15 09:34:56 info: =================================
+2022-09-15 09:34:59 info: MongoDB Connected.
+2022-09-15 09:35:00 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:35:00 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:35:10 info: =================================
+2022-09-15 09:35:10 info: ======= ENV: production =======
+2022-09-15 09:35:10 info: 🚀 App listening on the port 3000
+2022-09-15 09:35:10 info: =================================
+2022-09-15 09:35:12 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:35:12 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:35:13 info: MongoDB Connected.
+2022-09-15 09:35:24 info: =================================
+2022-09-15 09:35:24 info: ======= ENV: production =======
+2022-09-15 09:35:24 info: 🚀 App listening on the port 3000
+2022-09-15 09:35:24 info: =================================
+2022-09-15 09:35:27 info: MongoDB Connected.
+2022-09-15 09:35:41 info: =================================
+2022-09-15 09:35:41 info: ======= ENV: production =======
+2022-09-15 09:35:41 info: 🚀 App listening on the port 3000
+2022-09-15 09:35:41 info: =================================
+2022-09-15 09:35:43 info: MongoDB Connected.
+2022-09-15 09:35:54 info: =================================
+2022-09-15 09:35:54 info: ======= ENV: production =======
+2022-09-15 09:35:54 info: 🚀 App listening on the port 3000
+2022-09-15 09:35:54 info: =================================
+2022-09-15 09:35:57 info: MongoDB Connected.
+2022-09-15 09:36:00 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:00 +0000] "GET /graphql?query=%7B%0A%20%20readAcronym(from%3A%2019%2C%20limit%3A%2010%2C%20search%3A%20%22I%22)%20%7B%0A%20%20%20%20acronyms%20%7B%0A%20%20%20%20%20%20acronym%0A%20%20%20%20%20%20description%0A%20%20%20%20%7D%0A%20%20%20%20isOnly%0A%20%20%7D%0A%7D%0A HTTP/1.1" 200 932215 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:00 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:00 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:00 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:00 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:01 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:01 +0000] "GET /graphql?query=%7B%0A%20%20readAcronym(from%3A%2019%2C%20limit%3A%2010%2C%20search%3A%20%22I%22)%20%7B%0A%20%20%20%20acronyms%20%7B%0A%20%20%20%20%20%20acronym%0A%20%20%20%20%20%20description%0A%20%20%20%20%7D%0A%20%20%20%20isOnly%0A%20%20%7D%0A%7D%0A HTTP/1.1" 200 932215 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:01 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:01 +0000] "POST /graphql? HTTP/1.1" 200 20052 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:01 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:01 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:03 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:03 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:04 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:04 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:04 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:04 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:04 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:04 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:05 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:05 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:05 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:05 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:05 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:05 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:14 info: =================================
+2022-09-15 09:36:14 info: ======= ENV: production =======
+2022-09-15 09:36:14 info: 🚀 App listening on the port 3000
+2022-09-15 09:36:14 info: =================================
+2022-09-15 09:36:14 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:36:14 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:36:17 info: MongoDB Connected.
+2022-09-15 09:42:45 info: =================================
+2022-09-15 09:42:45 info: ======= ENV: production =======
+2022-09-15 09:42:45 info: 🚀 App listening on the port 3000
+2022-09-15 09:42:45 info: =================================
+2022-09-15 09:42:49 info: MongoDB Connected.
+2022-09-15 09:42:54 info: ::ffff:127.0.0.1 - - [15/Sep/2022:16:42:54 +0000] "POST /graphql? HTTP/1.1" 200 3841 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-15 09:47:34 info: =================================
+2022-09-15 09:47:34 info: ======= ENV: production =======
+2022-09-15 09:47:34 info: 🚀 App listening on the port 3000
+2022-09-15 09:47:34 info: =================================
+2022-09-15 09:47:37 info: MongoDB Connected.
+2022-09-15 09:48:42 info: =================================
+2022-09-15 09:48:42 info: ======= ENV: production =======
+2022-09-15 09:48:42 info: 🚀 App listening on the port 3000
+2022-09-15 09:48:42 info: =================================
+2022-09-15 09:48:54 info: =================================
+2022-09-15 09:48:54 info: ======= ENV: production =======
+2022-09-15 09:48:54 info: 🚀 App listening on the port 3000
+2022-09-15 09:48:54 info: =================================
+2022-09-15 09:48:56 info: MongoDB Connected.

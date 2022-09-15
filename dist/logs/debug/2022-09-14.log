@@ -449,3 +449,19 @@
 2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
 2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
 2022-09-14 02:07:51 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:07:51 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:02 info: =================================
+2022-09-14 02:08:02 info: ======= ENV: production =======
+2022-09-14 02:08:02 info: 🚀 App listening on the port 3000
+2022-09-14 02:08:02 info: =================================
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:04 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:06 info: MongoDB Connected.
+2022-09-14 02:08:22 error: [PUT] /acronym/WWW >> StatusCode:: 409, Message:: Acronym does not exist
+2022-09-14 02:08:22 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:22 +0000] "PUT /acronym/WWW HTTP/1.1" 409 36 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:08:47 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:08:47 +0000] "PUT /acronym/ZZZ HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+2022-09-14 02:09:11 info: ::ffff:127.0.0.1 - - [14/Sep/2022:09:09:11 +0000] "DELETE /acronym/AAA HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"

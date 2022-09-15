@@ -2,22 +2,12 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-function _export(target, all) {
-    for(var name in all)Object.defineProperty(target, name, {
-        enumerable: true,
-        get: all[name]
-    });
-}
-_export(exports, {
-    swaggerConfig: ()=>swaggerConfig,
-    default: ()=>_default
+Object.defineProperty(exports, "default", {
+    enumerable: true,
+    get: ()=>_default
 });
-const _compression = _interopRequireDefault(require("compression"));
 const _cookieParser = _interopRequireDefault(require("cookie-parser"));
-const _cors = _interopRequireDefault(require("cors"));
 const _express = _interopRequireDefault(require("express"));
-const _helmet = _interopRequireDefault(require("helmet"));
-const _hpp = _interopRequireDefault(require("hpp"));
 const _morgan = _interopRequireDefault(require("morgan"));
 const _swaggerJsdoc = _interopRequireDefault(require("swagger-jsdoc"));
 const _swaggerUiExpress = _interopRequireDefault(require("swagger-ui-express"));
@@ -28,6 +18,9 @@ const _typescriptSwagger = require("typescript-swagger");
 const _databases = require("@databases");
 const _mongoose = require("mongoose");
 const _path = _interopRequireDefault(require("path"));
+const _expressGraphql = require("express-graphql");
+const _schemas = _interopRequireDefault(require("@graphql/schemas"));
+const _resolvers = _interopRequireDefault(require("@graphql/resolvers"));
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
@@ -88,13 +81,6 @@ let App = class App {
         this.app.use((0, _morgan.default)(_config.LOG_FORMAT, {
             stream: _logger.stream
         }));
-        this.app.use((0, _cors.default)({
-            origin: _config.ORIGIN,
-            credentials: _config.CREDENTIALS
-        }));
-        this.app.use((0, _hpp.default)());
-        this.app.use((0, _helmet.default)());
-        this.app.use((0, _compression.default)());
         this.app.use(_express.default.json());
         this.app.use(_express.default.urlencoded({
             extended: true
@@ -134,6 +120,15 @@ let App = class App {
         this.connectToDatabase();
         this.initializeRoutes(routes);
         this.initializeSwagger();
+        this.app.use('/graphql', (0, _expressGraphql.graphqlHTTP)((req, res, graphqlParams)=>({
+                schema: _schemas.default,
+                rootValue: _resolvers.default,
+                graphiql: true,
+                context: {
+                    req,
+                    res
+                }
+            })));
         this.initializeErrorHandling();
     }
 };

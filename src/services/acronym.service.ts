@@ -65,7 +65,7 @@ class AcronymService {
     if (isEmpty(acronym) || isEmpty(description)) throw new HttpException(400, 'AcronymData is empty');
 
     const findAcronym: Acronym = await this.acronyms.findOne({ acronym: acronym });
-    if (findAcronym) throw new HttpException(409, `This WTF:${acronym} already exists`);
+    if (!isEmpty(findAcronym)) throw new HttpException(409, `This WTF:${acronym} already exists`);
     await this.acronyms.create({
       acronym: acronym,
       description: description,

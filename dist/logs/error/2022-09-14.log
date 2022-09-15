@@ -62,3 +62,4 @@ TypeError: this.connectToDatabase is not a function
 2022-09-14 02:00:16 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
 2022-09-14 02:00:52 error: [POST] /acronym >> StatusCode:: 500, Message:: Operation `acronyms.findOne()` buffering timed out after 10000ms
 2022-09-14 02:07:04 error: [PUT] /acronym/WWW >> StatusCode:: 400, Message:: property description should not exist, newDescription must be a string
+2022-09-14 02:08:22 error: [PUT] /acronym/WWW >> StatusCode:: 409, Message:: Acronym does not exist

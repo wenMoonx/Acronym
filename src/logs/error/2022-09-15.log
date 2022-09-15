@@ -1,0 +1,564 @@
+2022-09-15 06:21:42 error: uncaughtException: Route is not defined
+ReferenceError: Route is not defined
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\routes\acronym.route.ts:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\server.ts:2:1)
+2022-09-15 08:24:13 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m8[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m8[0m   const readAcronym = async (from: number, limit: number, search: string): Promise<AcronymGroup> => {
+[7m [0m [91m        ~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m19[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m21[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m21[0m   const createAcronym = async (acronym: string, description: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m32[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m32[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m34[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m34[0m   const updateAcronym = async (nowAcronym: string, newAcronym: string, newDescription: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m45[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m45[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m47[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m47[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m52[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m8[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m8[0m   const readAcronym = async (from: number, limit: number, search: string): Promise<AcronymGroup> => {
+[7m [0m [91m        ~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m19[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m19[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m21[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m21[0m   const createAcronym = async (acronym: string, description: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m32[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m32[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m34[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m34[0m   const updateAcronym = async (nowAcronym: string, newAcronym: string, newDescription: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m45[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m45[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m47[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m47[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m52[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m52[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 08:24:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m20[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m20[0m   const createAcronym = async (acronym: string, description: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m33[0m   const updateAcronym = async (nowAcronym: string, newAcronym: string, newDescription: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m46[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m20[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m20[0m   const createAcronym = async (acronym: string, description: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m33[0m   const updateAcronym = async (nowAcronym: string, newAcronym: string, newDescription: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m46[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 08:24:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m33[0m   const updateAcronym = async (nowAcronym: string, newAcronym: string, newDescription: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m46[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m33[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m33[0m   const updateAcronym = async (nowAcronym: string, newAcronym: string, newDescription: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m46[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 08:24:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m46[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m46[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m46[0m   const deleteAcronym = async (deleteAcronym: string) => {
+[7m  [0m [91m        ~~~~~~~~~~~~~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 08:24:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 08:24:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 08:24:49 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m18[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m31[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m44[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m44[0m   };
+[7m  [0m [91m   ~[0m
+[96msrc/graphql/resolvers.ts[0m:[93m51[0m:[93m4[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m51[0m   };
+[7m  [0m [91m   ~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 09:50:32 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: string }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:50:35 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: string }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:50:43 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: string }, context) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:41 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:43 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: number, limit: number, search: number }) => {
+                                               ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:53 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: any, limit: number, search: number }) => {
+                                                            ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:51:56 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:8
+    readAcronym: async ({ from: any, limit: any, search: any }) => {
+                                            ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
+2022-09-15 09:53:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m20[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m   createAcronym: async ({}acronym, description) => {
+[7m  [0m [91m                          ~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/graphql/resolvers.ts[0m:[93m20[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m20[0m   createAcronym: async ({}acronym, description) => {
+[7m  [0m [91m                          ~~~~~~~[0m
+
+    at createTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:863:19)
+    at D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-15 09:53:24 error: uncaughtException: Duplicate parameter name not allowed in this context
+D:\__Work\__Others\Acronym\src\graphql\resolvers.ts:32
+    updateAcronym: async ({ nowAcronym: string, newAcronym: string, newDescription: string }) => {
+                                                            ^
+
+SyntaxError: Duplicate parameter name not allowed in this context
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Module.m._compile (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\__Work\__Others\Acronym\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\src\app.ts:20:1)
