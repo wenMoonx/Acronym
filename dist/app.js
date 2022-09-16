@@ -13,10 +13,8 @@ const _swaggerUiExpress = _interopRequireDefault(require("swagger-ui-express"));
 const _config = require("./config");
 const _errorMiddleware = _interopRequireDefault(require("./middlewares/error.middleware"));
 const _logger = require("./utils/logger");
-const _typescriptSwagger = require("typescript-swagger");
 const _databases = require("@databases");
 const _mongoose = require("mongoose");
-const _path = _interopRequireDefault(require("path"));
 const _expressGraphql = require("express-graphql");
 const _schemas = _interopRequireDefault(require("@graphql/schemas"));
 const _resolvers = _interopRequireDefault(require("@graphql/resolvers"));
@@ -25,34 +23,6 @@ function _interopRequireDefault(obj) {
         default: obj
     };
 }
-const packageJson = require('../package.json');
-const tsConfig = require('../tsconfig.json');
-const swaggerConfig = {
-    yaml: true,
-    name: 'API - Documentation',
-    description: packageJson.description,
-    basePath: '/',
-    host: 'localhost:3000',
-    version: packageJson.version,
-    outputDirectory: 'public',
-    entryFile: _path.default.join('src', 'controllers', '**', '*.ts'),
-    decoratorConfig: {
-        useBuildIn: true,
-        useLibrary: [
-            'typescript-rest',
-            '@decorators/express'
-        ]
-    },
-    ignore: [
-        '**/node_modules/**'
-    ],
-    consumes: [
-        'application/json'
-    ],
-    produces: [
-        'application/json'
-    ]
-};
 let App = class App {
     listen() {
         this.app.listen(this.port, ()=>{
@@ -89,7 +59,6 @@ let App = class App {
         });
     }
     async initializeSwagger() {
-        await (0, _typescriptSwagger.generateDocumentation)(swaggerConfig, tsConfig);
         const options = {
             swaggerDefinition: {
                 info: {
