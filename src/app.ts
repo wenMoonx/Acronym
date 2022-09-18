@@ -19,26 +19,26 @@ import { graphqlHTTP } from 'express-graphql';
 import schemas from '@graphql/schemas';
 import resolvers from '@graphql/resolvers';
 
-// const packageJson = require('../package.json');
-// const tsConfig = require('../tsconfig.json');
+const packageJson = require('../package.json');
+const tsConfig = require('../tsconfig.json');
 
-// const swaggerConfig: SwaggerConfig = {
-//   yaml: true,
-//   name: 'API - Documentation',
-//   description: packageJson.description,
-//   basePath: '/',
-//   host: 'localhost:3000',
-//   version: packageJson.version,
-//   outputDirectory: 'public',
-//   entryFile: path.join('src', 'controllers', '**', '*.ts'),
-//   decoratorConfig: {
-//     useBuildIn: true,
-//     useLibrary: ['typescript-rest', '@decorators/express'],
-//   },
-//   ignore: ['**/node_modules/**'],
-//   consumes: ['application/json'],
-//   produces: ['application/json'],
-// };
+const swaggerConfig: SwaggerConfig = {
+  yaml: true,
+  name: 'API - Documentation',
+  description: packageJson.description,
+  basePath: '/',
+  host: 'localhost:3000',
+  version: packageJson.version,
+  outputDirectory: 'public',
+  entryFile: path.join('src', 'controllers', '**', '*.ts'),
+  decoratorConfig: {
+    useBuildIn: true,
+    useLibrary: ['typescript-rest', '@decorators/express'],
+  },
+  ignore: ['**/node_modules/**'],
+  consumes: ['application/json'],
+  produces: ['application/json'],
+};
 class App {
   public app: express.Application;
   public env: string;
@@ -54,18 +54,18 @@ class App {
     this.initializeRoutes(routes);
     this.initializeSwagger();
 
-    // this.app.use(
-    //   '/graphql',
-    //   graphqlHTTP((req, res) => ({
-    //     schema: schemas,
-    //     rootValue: resolvers,
-    //     graphiql: true,
-    //     context: {
-    //       req,
-    //       res,
-    //     },
-    //   })),
-    // );
+    this.app.use(
+      '/graphql',
+      graphqlHTTP((req, res) => ({
+        schema: schemas,
+        rootValue: resolvers,
+        graphiql: true,
+        context: {
+          req,
+          res,
+        },
+      })),
+    );
     this.initializeErrorHandling();
   }
 
@@ -93,8 +93,9 @@ class App {
       logger.info('MongoDB ConnectError:', error);
     }
   }
+
   private initializeMiddlewares() {
-    // this.app.use(morgan(LOG_FORMAT, { stream }));
+    this.app.use(morgan(LOG_FORMAT, { stream }));
     // this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
     // this.app.use(hpp());
     // // this.app.use(helmet());
@@ -111,7 +112,7 @@ class App {
   }
 
   private async initializeSwagger() {
-    // await generateDocumentation(swaggerConfig, tsConfig);
+    await generateDocumentation(swaggerConfig, tsConfig);
     const options = {
       swaggerDefinition: {
         info: {
