@@ -1,0 +1,81 @@
+2022-09-19 01:09:40 info: =================================
+2022-09-19 01:09:40 info: ======= ENV: production =======
+2022-09-19 01:09:40 info: 🚀 App listening on the port 3000
+2022-09-19 01:09:40 info: =================================
+2022-09-19 01:10:11 info: mongoDB is err,  Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-19 01:16:08 info: =================================
+2022-09-19 01:16:08 info: ======= ENV: production =======
+2022-09-19 01:16:08 info: 🚀 App listening on the port 3000
+2022-09-19 01:16:08 info: =================================
+2022-09-19 01:16:45 info: mongoDB is err,  Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-19 01:18:26 info: =================================
+2022-09-19 01:18:26 info: ======= ENV: production =======
+2022-09-19 01:18:26 info: 🚀 App listening on the port 3000
+2022-09-19 01:18:26 info: =================================
+2022-09-19 01:18:57 info: mongoDB is err,  Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+2022-09-19 01:24:59 info: =================================
+2022-09-19 01:24:59 info: ======= ENV: production =======
+2022-09-19 01:24:59 info: 🚀 App listening on the port 3000
+2022-09-19 01:24:59 info: =================================
+2022-09-19 01:25:03 info: MongoDB connected
+2022-09-19 01:25:21 info: =================================
+2022-09-19 01:25:21 info: ======= ENV: production =======
+2022-09-19 01:25:21 info: 🚀 App listening on the port 3000
+2022-09-19 01:25:21 info: =================================
+2022-09-19 01:25:24 info: MongoDB connected
+2022-09-19 01:26:17 info: =================================
+2022-09-19 01:26:17 info: ======= ENV: production =======
+2022-09-19 01:26:17 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:17 info: =================================
+2022-09-19 01:26:20 info: MongoDB connected
+2022-09-19 01:26:22 info: =================================
+2022-09-19 01:26:22 info: ======= ENV: production =======
+2022-09-19 01:26:22 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:22 info: =================================
+2022-09-19 01:26:25 info: MongoDB connected
+2022-09-19 01:26:33 info: =================================
+2022-09-19 01:26:33 info: ======= ENV: production =======
+2022-09-19 01:26:33 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:33 info: =================================
+2022-09-19 01:26:37 info: =================================
+2022-09-19 01:26:37 info: ======= ENV: production =======
+2022-09-19 01:26:37 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:37 info: =================================
+2022-09-19 01:26:40 info: MongoDB connected
+2022-09-19 01:26:43 info: =================================
+2022-09-19 01:26:43 info: ======= ENV: production =======
+2022-09-19 01:26:43 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:43 info: =================================
+2022-09-19 01:26:49 info: =================================
+2022-09-19 01:26:49 info: ======= ENV: production =======
+2022-09-19 01:26:49 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:49 info: =================================
+2022-09-19 01:26:52 info: MongoDB connected
+2022-09-19 01:26:56 info: =================================
+2022-09-19 01:26:56 info: ======= ENV: production =======
+2022-09-19 01:26:56 info: 🚀 App listening on the port 3000
+2022-09-19 01:26:56 info: =================================
+2022-09-19 01:26:59 info: MongoDB connected
+2022-09-19 01:27:02 info: =================================
+2022-09-19 01:27:02 info: ======= ENV: production =======
+2022-09-19 01:27:02 info: 🚀 App listening on the port 3000
+2022-09-19 01:27:02 info: =================================
+2022-09-19 01:27:04 info: =================================
+2022-09-19 01:27:04 info: ======= ENV: production =======
+2022-09-19 01:27:04 info: 🚀 App listening on the port 3000
+2022-09-19 01:27:04 info: =================================
+2022-09-19 01:27:07 info: MongoDB connected
+2022-09-19 01:27:10 info: =================================
+2022-09-19 01:27:10 info: ======= ENV: production =======
+2022-09-19 01:27:10 info: 🚀 App listening on the port 3000
+2022-09-19 01:27:10 info: =================================
+2022-09-19 01:27:13 info: =================================
+2022-09-19 01:27:13 info: ======= ENV: production =======
+2022-09-19 01:27:13 info: 🚀 App listening on the port 3000
+2022-09-19 01:27:13 info: =================================
+2022-09-19 01:27:16 info: MongoDB connected
+2022-09-19 01:27:46 info: =================================
+2022-09-19 01:27:46 info: ======= ENV: production =======
+2022-09-19 01:27:46 info: 🚀 App listening on the port 3000
+2022-09-19 01:27:46 info: =================================
+2022-09-19 01:27:49 info: MongoDB connected

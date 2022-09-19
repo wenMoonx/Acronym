@@ -1,40 +1,47 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.stream = exports.logger = void 0;
-const tslib_1 = require("tslib");
-const fs_1 = require("fs");
-const path_1 = require("path");
-const winston_1 = tslib_1.__importDefault(require("winston"));
-const winston_daily_rotate_file_1 = tslib_1.__importDefault(require("winston-daily-rotate-file"));
-const _config_1 = require("@config");
-// logs dir
-const logDir = (0, path_1.join)(__dirname, _config_1.LOG_DIR);
-if (!(0, fs_1.existsSync)(logDir)) {
-    (0, fs_1.mkdirSync)(logDir);
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function _export(target, all) {
+    for(var name in all)Object.defineProperty(target, name, {
+        enumerable: true,
+        get: all[name]
+    });
 }
-// Define log format
-const logFormat = winston_1.default.format.printf(({ timestamp, level, message }) => `${timestamp} ${level}: ${message}`);
-/*
- * Log Level
- * error: 0, warn: 1, info: 2, http: 3, verbose: 4, debug: 5, silly: 6
- */
-const logger = winston_1.default.createLogger({
-    format: winston_1.default.format.combine(winston_1.default.format.timestamp({
-        format: 'YYYY-MM-DD HH:mm:ss',
+_export(exports, {
+    logger: ()=>logger,
+    stream: ()=>stream
+});
+const _fs = require("fs");
+const _path = require("path");
+const _winston = _interopRequireDefault(require("winston"));
+const _winstonDailyRotateFile = _interopRequireDefault(require("winston-daily-rotate-file"));
+const _config = require("../config");
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+const logDir = (0, _path.join)(__dirname, _config.LOG_DIR);
+if (!(0, _fs.existsSync)(logDir)) {
+    (0, _fs.mkdirSync)(logDir);
+}
+const logFormat = _winston.default.format.printf(({ timestamp , level , message  })=>`${timestamp} ${level}: ${message}`);
+const logger = _winston.default.createLogger({
+    format: _winston.default.format.combine(_winston.default.format.timestamp({
+        format: 'YYYY-MM-DD HH:mm:ss'
     }), logFormat),
     transports: [
-        // debug log setting
-        new winston_daily_rotate_file_1.default({
+        new _winstonDailyRotateFile.default({
             level: 'debug',
             datePattern: 'YYYY-MM-DD',
             dirname: logDir + '/debug',
             filename: `%DATE%.log`,
             maxFiles: 30,
             json: false,
-            zippedArchive: true,
+            zippedArchive: true
         }),
-        // error log setting
-        new winston_daily_rotate_file_1.default({
+        new _winstonDailyRotateFile.default({
             level: 'error',
             datePattern: 'YYYY-MM-DD',
             dirname: logDir + '/error',
@@ -42,18 +49,17 @@ const logger = winston_1.default.createLogger({
             maxFiles: 30,
             handleExceptions: true,
             json: false,
-            zippedArchive: true,
-        }),
-    ],
+            zippedArchive: true
+        }), 
+    ]
 });
-exports.logger = logger;
-logger.add(new winston_1.default.transports.Console({
-    format: winston_1.default.format.combine(winston_1.default.format.splat(), winston_1.default.format.colorize()),
+logger.add(new _winston.default.transports.Console({
+    format: _winston.default.format.combine(_winston.default.format.splat(), _winston.default.format.colorize())
 }));
 const stream = {
-    write: (message) => {
+    write: (message)=>{
         logger.info(message.substring(0, message.lastIndexOf('\n')));
-    },
+    }
 };
-exports.stream = stream;
+
 //# sourceMappingURL=logger.js.map

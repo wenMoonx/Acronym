@@ -47,20 +47,8 @@ class App {
     this.connectToDatabase();
     this.initializeRoutes(routes);
     this.initializeSwagger();
-
-    this.app.use(
-      '/graphql',
-      graphqlHTTP((req, res) => ({
-        schema: schemas,
-        rootValue: resolvers,
-        graphiql: true,
-        context: {
-          req,
-          res,
-        },
-      })),
-    );
     this.initializeErrorHandling();
+    this.initializeGraphql();
   }
 
   public listen() {
@@ -76,7 +64,7 @@ class App {
     return this.app;
   }
 
-  private async connectToDatabase() {
+  private connectToDatabase() {
     mongoose
       .connect(dbConnection.url)
       .then(() => logger.info('MongoDB connected'))
@@ -89,13 +77,28 @@ class App {
     this.app.use(cookieParser());
   }
 
+  private initializeGraphql() {
+    this.app.use(
+      '/graphql',
+      graphqlHTTP((req, res) => ({
+        schema: schemas,
+        rootValue: resolvers,
+        graphiql: true,
+        context: {
+          req,
+          res,
+        },
+      })),
+    );
+  }
+
   private initializeRoutes(routes: Routes[]) {
     routes.forEach(route => {
       this.app.use('/', route.router);
     });
   }
 
-  private async initializeSwagger() {
+  private initializeSwagger() {
     // await generateDocumentation(swaggerConfig, tsConfig);
     const options = {
       swaggerDefinition: {

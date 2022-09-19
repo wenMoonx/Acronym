@@ -1,24 +1,35 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const tslib_1 = require("tslib");
-const express_1 = require("express");
-const acronym_controller_1 = tslib_1.__importDefault(require("@controllers/acronym.controller"));
-const acronym_dto_1 = require("@dtos/acronym.dto");
-const validation_middleware_1 = tslib_1.__importDefault(require("@middlewares/validation.middleware"));
-const auth_middleware_1 = tslib_1.__importDefault(require("@middlewares/auth.middleware"));
-class AcronymRoute {
-    constructor() {
-        this.path = '/acronym';
-        this.router = (0, express_1.Router)();
-        this.acronymController = new acronym_controller_1.default();
-        this.initializeRoutes();
-    }
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+Object.defineProperty(exports, "default", {
+    enumerable: true,
+    get: ()=>_default
+});
+const _express = require("express");
+const _acronymController = _interopRequireDefault(require("../controllers/acronym.controller"));
+const _acronymDto = require("../dtos/acronym.dto");
+const _validationMiddleware = _interopRequireDefault(require("../middlewares/validation.middleware"));
+const _authMiddleware = _interopRequireDefault(require("../middlewares/auth.middleware"));
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        default: obj
+    };
+}
+let AcronymRoute = class AcronymRoute {
     initializeRoutes() {
         this.router.get(`${this.path}`, this.acronymController.readAcronym);
-        this.router.post(`${this.path}`, (0, validation_middleware_1.default)(acronym_dto_1.CreateAcronymDto, 'body'), this.acronymController.createAcronym);
-        this.router.put(`${this.path}/:nowAcronym`, auth_middleware_1.default, (0, validation_middleware_1.default)(acronym_dto_1.updateAcronymDto, 'body'), this.acronymController.updateAcronym);
-        this.router.delete(`${this.path}/:acronym`, auth_middleware_1.default, (0, validation_middleware_1.default)(acronym_dto_1.deleteAcronymDto, 'params'), this.acronymController.deleteAcronym);
+        this.router.post(`${this.path}`, (0, _validationMiddleware.default)(_acronymDto.CreateAcronymDto, 'body'), this.acronymController.createAcronym);
+        this.router.put(`${this.path}/:nowAcronym`, _authMiddleware.default, (0, _validationMiddleware.default)(_acronymDto.updateAcronymDto, 'body'), this.acronymController.updateAcronym);
+        this.router.delete(`${this.path}/:acronym`, _authMiddleware.default, (0, _validationMiddleware.default)(_acronymDto.deleteAcronymDto, 'params'), this.acronymController.deleteAcronym);
     }
-}
-exports.default = AcronymRoute;
+    constructor(){
+        this.path = '/acronym';
+        this.router = (0, _express.Router)();
+        this.acronymController = new _acronymController.default();
+        this.initializeRoutes();
+    }
+};
+const _default = AcronymRoute;
+
 //# sourceMappingURL=acronym.route.js.map

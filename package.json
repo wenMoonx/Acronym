@@ -5,9 +5,15 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "cross-env NODE_ENV=production nodemon dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon",
-    "postinstall": "tsc"
+    "build": "swc src -d dist --source-maps --copy-files",
+    "build:tsc": "tsc && tsc-alias",
+    "test": "jest --forceExit --detectOpenHandles",
+    "lint": "eslint --ignore-path .gitignore --ext .ts src/",
+    "lint:fix": "npm run lint -- --fix",
+    "deploy:prod": "npm run build && pm2 start ecosystem.config.js --only prod",
+    "deploy:dev": "pm2 start ecosystem.config.js --only dev"
   },
   "dependencies": {
     "@decorators/express": "^2.6.0",
