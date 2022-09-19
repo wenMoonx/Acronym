@@ -1,15 +1,9 @@
 import { NextFunction, Request, Response } from 'express';
-import { Path, Accept, GET, POST, QueryParam } from 'typescript-rest';
-import { SwaggerTags, ResponseProduces } from 'typescript-swagger';
-
 import { CreateAcronymDto } from '@dtos/acronym.dto';
 import AcronymService from '@services/acronym.service';
-@Path('/acronym')
 class AcronymController {
   public acronymService = new AcronymService();
 
-  @GET
-  @SwaggerTags('adiministrative', 'department1')
   public readAcronym = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
       const { from = 0, limit = 10, search = '' } = req.query;

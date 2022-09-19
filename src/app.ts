@@ -4,41 +4,41 @@ import cookieParser from 'cookie-parser';
 import express from 'express';
 // import helmet from 'helmet';
 // import hpp from 'hpp';
-import morgan from 'morgan';
+// import morgan from 'morgan';
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
 import { LOG_FORMAT, NODE_ENV, PORT } from '@config';
 import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
 import { logger, stream } from '@utils/logger';
-import { SwaggerConfig, generateDocumentation } from 'typescript-swagger';
+// import { SwaggerConfig, generateDocumentation } from 'typescript-swagger';
 import { dbConnection } from '@databases';
 import { connect, set } from 'mongoose';
-import path from 'path';
+// import path from 'path';
 import { graphqlHTTP } from 'express-graphql';
 import schemas from '@graphql/schemas';
 import resolvers from '@graphql/resolvers';
 
-const packageJson = require('../package.json');
-const tsConfig = require('../tsconfig.json');
+// const packageJson = require('../package.json');
+// const tsConfig = require('../tsconfig.json');
 
-const swaggerConfig: SwaggerConfig = {
-  yaml: true,
-  name: 'API - Documentation',
-  description: packageJson.description,
-  basePath: '/',
-  host: 'localhost:3000',
-  version: packageJson.version,
-  outputDirectory: 'public',
-  entryFile: path.join('src', 'controllers', '**', '*.ts'),
-  decoratorConfig: {
-    useBuildIn: true,
-    useLibrary: ['typescript-rest', '@decorators/express'],
-  },
-  ignore: ['**/node_modules/**'],
-  consumes: ['application/json'],
-  produces: ['application/json'],
-};
+// const swaggerConfig: SwaggerConfig = {
+//   yaml: true,
+//   name: 'API - Documentation',
+//   description: packageJson.description,
+//   basePath: '/',
+//   host: 'localhost:3000',
+//   version: packageJson.version,
+//   outputDirectory: 'public',
+//   entryFile: path.join('src', 'controllers', '**', '*.ts'),
+//   decoratorConfig: {
+//     useBuildIn: true,
+//     useLibrary: ['typescript-rest', '@decorators/express'],
+//   },
+//   ignore: ['**/node_modules/**'],
+//   consumes: ['application/json'],
+//   produces: ['application/json'],
+// };
 class App {
   public app: express.Application;
   public env: string;
@@ -95,7 +95,7 @@ class App {
   }
 
   private initializeMiddlewares() {
-    this.app.use(morgan(LOG_FORMAT, { stream }));
+    // this.app.use(morgan(LOG_FORMAT, { stream }));
     // this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
     // this.app.use(hpp());
     // // this.app.use(helmet());
@@ -112,7 +112,7 @@ class App {
   }
 
   private async initializeSwagger() {
-    await generateDocumentation(swaggerConfig, tsConfig);
+    // await generateDocumentation(swaggerConfig, tsConfig);
     const options = {
       swaggerDefinition: {
         info: {
