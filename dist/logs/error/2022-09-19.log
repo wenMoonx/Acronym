@@ -16,3 +16,39 @@ Require stack:
     at Module.load (internal/modules/cjs/loader.js:928:32)
     at Function.Module._load (internal/modules/cjs/loader.js:769:14)
     at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-19 01:34:01 error: uncaughtException: Cannot find module '@databases'
+Require stack:
+- D:\__Work\__Others\Acronym\dist\app.js
+- D:\__Work\__Others\Acronym\dist\server.js
+Error: Cannot find module '@databases'
+Require stack:
+- D:\__Work\__Others\Acronym\dist\app.js
+- D:\__Work\__Others\Acronym\dist\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\dist\app.js:16:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+2022-09-19 01:34:47 error: uncaughtException: Cannot find module '.databases'
+Require stack:
+- D:\__Work\__Others\Acronym\dist\app.js
+- D:\__Work\__Others\Acronym\dist\server.js
+Error: Cannot find module '.databases'
+Require stack:
+- D:\__Work\__Others\Acronym\dist\app.js
+- D:\__Work\__Others\Acronym\dist\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\__Work\__Others\Acronym\dist\app.js:16:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)

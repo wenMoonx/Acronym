@@ -13,11 +13,11 @@ const _swaggerUiExpress = _interopRequireDefault(require("swagger-ui-express"));
 const _config = require("./config");
 const _errorMiddleware = _interopRequireDefault(require("./middlewares/error.middleware"));
 const _logger = require("./utils/logger");
-const _databases = require("@databases");
+const _databases = require("./databases");
 const _mongoose = _interopRequireDefault(require("mongoose"));
 const _expressGraphql = require("express-graphql");
-const _schemas = _interopRequireDefault(require("@graphql/schemas"));
-const _resolvers = _interopRequireDefault(require("@graphql/resolvers"));
+const _schemas = _interopRequireDefault(require("./graphql/schemas"));
+const _resolvers = _interopRequireDefault(require("./graphql/resolvers"));
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : {
         default: obj
