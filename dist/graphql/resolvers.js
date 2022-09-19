@@ -1,72 +1,53 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "default", {
-    enumerable: true,
-    get: ()=>_default
-});
-const _util = require("../utils/util");
-const _httpException = require("../exceptions/HttpException");
-const _acronymModel = _interopRequireDefault(require("../models/acronym.model"));
-function _interopRequireDefault(obj) {
-    return obj && obj.__esModule ? obj : {
-        default: obj
-    };
-}
+Object.defineProperty(exports, "__esModule", { value: true });
+const tslib_1 = require("tslib");
+const util_1 = require("@/utils/util");
+const HttpException_1 = require("@exceptions/HttpException");
+const acronym_model_1 = tslib_1.__importDefault(require("@models/acronym.model"));
 const resolvers = {
-    readAcronym: async ({ from , limit , search  })=>{
-        const findAcronyms = await _acronymModel.default.find({
-            description: {
-                $regex: search
-            }
-        }).skip(from).limit(limit);
+    readAcronym: async ({ from, limit, search }) => {
+        const findAcronyms = await acronym_model_1.default
+            .find({
+            description: { $regex: search },
+        })
+            .skip(from)
+            .limit(limit);
         return {
             isOnly: true,
-            acronyms: findAcronyms
+            acronyms: findAcronyms,
         };
     },
-    createAcronym: async ({ acronym , description  })=>{
-        if ((0, _util.isEmpty)(acronym) || (0, _util.isEmpty)(description)) throw new _httpException.HttpException(400, 'AcronymData is empty');
-        const findAcronym = await _acronymModel.default.findOne({
-            acronym: acronym
-        });
-        if (!(0, _util.isEmpty)(findAcronym)) throw new _httpException.HttpException(409, `This WTF:${acronym} already exists`);
-        await _acronymModel.default.create({
+    createAcronym: async ({ acronym, description }) => {
+        if ((0, util_1.isEmpty)(acronym) || (0, util_1.isEmpty)(description))
+            throw new HttpException_1.HttpException(400, 'AcronymData is empty');
+        const findAcronym = await acronym_model_1.default.findOne({ acronym: acronym });
+        if (!(0, util_1.isEmpty)(findAcronym))
+            throw new HttpException_1.HttpException(409, `This WTF:${acronym} already exists`);
+        await acronym_model_1.default.create({
             acronym: acronym,
-            description: description
+            description: description,
         });
         return true;
     },
-    updateAcronym: async ({ nowAcronym , newAcronym , newDescription  })=>{
-        if ((0, _util.isEmpty)(newAcronym) || (0, _util.isEmpty)(newDescription)) throw new _httpException.HttpException(400, 'acronymData is empty');
-        const findNowAcronym = await _acronymModel.default.findOne({
-            acronym: nowAcronym
-        });
-        if ((0, _util.isEmpty)(findNowAcronym)) throw new _httpException.HttpException(409, 'Acronym does not exist');
-        const findAcronym = await _acronymModel.default.findOne({
-            acronym: newAcronym
-        });
-        if (findAcronym && findAcronym.acronym != nowAcronym) throw new _httpException.HttpException(409, `This WTF:${newAcronym} already exists`);
-        await _acronymModel.default.updateOne({
-            acronym: nowAcronym
-        }, {
-            acronym: newAcronym,
-            description: newDescription
-        });
+    updateAcronym: async ({ nowAcronym, newAcronym, newDescription }) => {
+        if ((0, util_1.isEmpty)(newAcronym) || (0, util_1.isEmpty)(newDescription))
+            throw new HttpException_1.HttpException(400, 'acronymData is empty');
+        const findNowAcronym = await acronym_model_1.default.findOne({ acronym: nowAcronym });
+        if ((0, util_1.isEmpty)(findNowAcronym))
+            throw new HttpException_1.HttpException(409, 'Acronym does not exist');
+        const findAcronym = await acronym_model_1.default.findOne({ acronym: newAcronym });
+        if (findAcronym && findAcronym.acronym != nowAcronym)
+            throw new HttpException_1.HttpException(409, `This WTF:${newAcronym} already exists`);
+        await acronym_model_1.default.updateOne({ acronym: nowAcronym }, { acronym: newAcronym, description: newDescription });
         return true;
     },
-    deleteAcronym: async ({ deleteAcronym  })=>{
-        const findAcronym = await _acronymModel.default.findOne({
-            acronym: deleteAcronym
-        });
-        if ((0, _util.isEmpty)(findAcronym)) throw new _httpException.HttpException(409, "Acronym doesn't exist");
-        await _acronymModel.default.deleteOne({
-            acronym: deleteAcronym
-        });
+    deleteAcronym: async ({ deleteAcronym }) => {
+        const findAcronym = await acronym_model_1.default.findOne({ acronym: deleteAcronym });
+        if ((0, util_1.isEmpty)(findAcronym))
+            throw new HttpException_1.HttpException(409, "Acronym doesn't exist");
+        await acronym_model_1.default.deleteOne({ acronym: deleteAcronym });
         return true;
-    }
+    },
 };
-const _default = resolvers;
-
+exports.default = resolvers;
 //# sourceMappingURL=resolvers.js.map

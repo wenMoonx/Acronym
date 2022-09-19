@@ -1,13 +1,7 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "default", {
-    enumerable: true,
-    get: ()=>_default
-});
-const _graphql = require("graphql");
-const schema = (0, _graphql.buildSchema)(`
+Object.defineProperty(exports, "__esModule", { value: true });
+const graphql_1 = require("graphql");
+const schema = (0, graphql_1.buildSchema)(`
     type Query {
       readAcronym(from: Int!, limit: Int!, search: String!): AcronymGroup
     }
@@ -25,6 +19,5 @@ const schema = (0, _graphql.buildSchema)(`
       isOnly: Boolean!
     }
 `);
-const _default = schema;
-
+exports.default = schema;
 //# sourceMappingURL=schemas.js.map

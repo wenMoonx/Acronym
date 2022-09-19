@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../src/interfaces/routes.interface.ts"],"sourcesContent":["import { Router } from 'express';\n\nexport interface Routes {\n  path?: string;\n  router: Router;\n}\n"],"names":[],"mappings":"AAAA"}
+{"version":3,"file":"routes.interface.js","sourceRoot":"","sources":["../../src/interfaces/routes.interface.ts"],"names":[],"mappings":""}
