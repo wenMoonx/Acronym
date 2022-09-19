@@ -50,7 +50,7 @@ class App {
     this.port = PORT || 3000;
 
     this.initializeMiddlewares();
-    this.connectToDatabase();
+    // this.connectToDatabase();
     this.initializeRoutes(routes);
     this.initializeSwagger();
 
