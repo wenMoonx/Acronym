@@ -14,7 +14,7 @@ const _config = require("./config");
 const _errorMiddleware = _interopRequireDefault(require("./middlewares/error.middleware"));
 const _logger = require("./utils/logger");
 const _databases = require("@databases");
-const _mongoose = require("mongoose");
+const _mongoose = _interopRequireDefault(require("mongoose"));
 const _expressGraphql = require("express-graphql");
 const _schemas = _interopRequireDefault(require("@graphql/schemas"));
 const _resolvers = _interopRequireDefault(require("@graphql/resolvers"));
@@ -36,15 +36,7 @@ let App = class App {
         return this.app;
     }
     async connectToDatabase() {
-        if (this.env !== 'production') {
-            (0, _mongoose.set)('debug', true);
-        }
-        try {
-            await (0, _mongoose.connect)(_databases.dbConnection.url, _databases.dbConnection.options);
-            _logger.logger.info('MongoDB Connected.');
-        } catch (error) {
-            _logger.logger.info('MongoDB ConnectError:', error);
-        }
+        _mongoose.default.connect(_databases.dbConnection.url).then(()=>console.log('MongoDB connected')).catch((err)=>console.log('mongoDB is err, ', err));
     }
     initializeMiddlewares() {
         this.app.use(_express.default.json());

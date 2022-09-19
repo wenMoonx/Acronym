@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../src/interfaces/auth.interface.ts"],"sourcesContent":["import { Request } from 'express';\r\nimport { User } from '@interfaces/users.interface';\r\n\r\nexport interface DataStoredInToken {\r\n  id: number;\r\n}\r\n\r\nexport interface TokenData {\r\n  token: string;\r\n  expiresIn: number;\r\n}\r\n\r\nexport interface RequestWithUser extends Request {\r\n  user: User;\r\n}\r\n"],"names":[],"mappings":"AAAA"}
+{"version":3,"file":"auth.interface.js","sourceRoot":"","sources":["../../src/interfaces/auth.interface.ts"],"names":[],"mappings":""}

@@ -1,9 +1,9 @@
 import { NextFunction, Response } from 'express';
 import { SECRET_KEY } from '@config';
 import { HttpException } from '@exceptions/HttpException';
-import { RequestWithUser } from '@interfaces/auth.interface';
+import { RequestWithAcronym } from '@interfaces/acronym.interface';
 
-const authMiddleware = async (req: RequestWithUser, res: Response, next: NextFunction) => {
+const authMiddleware = async (req: RequestWithAcronym, res: Response, next: NextFunction) => {
   try {
     const Authorization = req.cookies['Authorization'] || (req.header('Authorization') ? req.header('Authorization').split('Bearer ')[1] : null);
     if (Authorization) {

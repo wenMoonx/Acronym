@@ -1,20 +1,14 @@
-// import compression from 'compression';
 import cookieParser from 'cookie-parser';
-// import cors from 'cors';
 import express from 'express';
-// import helmet from 'helmet';
-// import hpp from 'hpp';
-// import morgan from 'morgan';
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-import { LOG_FORMAT, NODE_ENV, PORT } from '@config';
+import { NODE_ENV, PORT } from '@config';
 import { Routes } from '@interfaces/routes.interface';
 import errorMiddleware from '@middlewares/error.middleware';
-import { logger, stream } from '@utils/logger';
+import { logger } from '@utils/logger';
 // import { SwaggerConfig, generateDocumentation } from 'typescript-swagger';
 import { dbConnection } from '@databases';
-import { connect, set } from 'mongoose';
-// import path from 'path';
+import mongoose from 'mongoose';
 import { graphqlHTTP } from 'express-graphql';
 import schemas from '@graphql/schemas';
 import resolvers from '@graphql/resolvers';
@@ -83,23 +77,13 @@ class App {
   }
 
   private async connectToDatabase() {
-    if (this.env !== 'production') {
-      set('debug', true);
-    }
-    try {
-      await connect(dbConnection.url, dbConnection.options);
-      logger.info('MongoDB Connected.');
-    } catch (error) {
-      logger.info('MongoDB ConnectError:', error);
-    }
+    mongoose
+      .connect(dbConnection.url)
+      .then(() => logger.info('MongoDB connected'))
+      .catch(err => logger.info('mongoDB is err, ', err));
   }
 
   private initializeMiddlewares() {
-    // this.app.use(morgan(LOG_FORMAT, { stream }));
-    // this.app.use(cors({ origin: ORIGIN, credentials: CREDENTIALS }));
-    // this.app.use(hpp());
-    // // this.app.use(helmet());
-    // this.app.use(compression());
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(cookieParser());
