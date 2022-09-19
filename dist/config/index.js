@@ -15,16 +15,13 @@ _export(exports, {
     SECRET_KEY: ()=>SECRET_KEY,
     LOG_FORMAT: ()=>LOG_FORMAT,
     LOG_DIR: ()=>LOG_DIR,
-    ORIGIN: ()=>ORIGIN,
-    DB_HOST: ()=>DB_HOST,
-    DB_PORT: ()=>DB_PORT,
-    DB_DATABASE: ()=>DB_DATABASE
+    ORIGIN: ()=>ORIGIN
 });
 const _dotenv = require("dotenv");
 (0, _dotenv.config)({
     path: `.env.${process.env.NODE_ENV || 'development'}.local`
 });
 const CREDENTIALS = process.env.CREDENTIALS === 'true';
-const { NODE_ENV , PORT , SECRET_KEY , LOG_FORMAT , LOG_DIR , ORIGIN , DB_HOST , DB_PORT , DB_DATABASE  } = process.env;
+const { NODE_ENV , PORT , SECRET_KEY , LOG_FORMAT , LOG_DIR , ORIGIN  } = process.env;
 
 //# sourceMappingURL=index.js.map
